@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/6.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/filter/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/filter http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_kbpaIAsAEfCIotq8qf0oKg" selectedViews="_kcVWoAsAEfCIotq8qf0oKg _kdPVkAsAEfCIotq8qf0oKg _khaD4AsAEfCIotq8qf0oKg _kj8agAsAEfCIotq8qf0oKg _kkw54AsAEfCIotq8qf0oKg _kk5cwAsAEfCIotq8qf0oKg _kmGWoAsAEfCIotq8qf0oKg" version="15.1.0.202211301600">
+    <semanticResources>Bicycle%20Market%20Expansion.afm</semanticResources>
+    <semanticResources>Bicycle%20Market%20Expansion.capella</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_kcVWoAsAEfCIotq8qf0oKg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_kdPVkAsAEfCIotq8qf0oKg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_fM42cAslEfCIotq8qf0oKg" name="[OCB] Operational Capabilities" repPath="#_fM3oUAslEfCIotq8qf0oKg" changeId="1743093869427">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
+        <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="Bicycle%20Market%20Expansion.capella#f0f87a1b-ea97-4d4f-ab8f-c82f49dda259"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_khaD4AsAEfCIotq8qf0oKg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_kj8agAsAEfCIotq8qf0oKg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_kkw54AsAEfCIotq8qf0oKg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/EPBS.odesign#//@ownedViewpoints[name='EPBS%20architecture']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_kk5cwAsAEfCIotq8qf0oKg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_kmGWoAsAEfCIotq8qf0oKg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']"/>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_fM3oUAslEfCIotq8qf0oKg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_fM75wAslEfCIotq8qf0oKg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_fM75wQslEfCIotq8qf0oKg" type="Sirius" element="_fM3oUAslEfCIotq8qf0oKg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_hGdAIAslEfCIotq8qf0oKg" type="2002" element="_hGaj4AslEfCIotq8qf0oKg">
+          <children xmi:type="notation:Node" xmi:id="_hGdAIwslEfCIotq8qf0oKg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_hGdAJAslEfCIotq8qf0oKg" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_hGdAJQslEfCIotq8qf0oKg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_hGdAJgslEfCIotq8qf0oKg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_hGdAIQslEfCIotq8qf0oKg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hGdAIgslEfCIotq8qf0oKg" x="320" y="130" width="173" height="57"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_41BHMAslEfCIotq8qf0oKg" type="2002" element="_40-q8AslEfCIotq8qf0oKg">
+          <children xmi:type="notation:Node" xmi:id="_41BHMwslEfCIotq8qf0oKg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_41BHNAslEfCIotq8qf0oKg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_9PUvUAslEfCIotq8qf0oKg" type="3008" element="_9PSTEAslEfCIotq8qf0oKg">
+              <children xmi:type="notation:Node" xmi:id="_9PUvUwslEfCIotq8qf0oKg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_9PUvVAslEfCIotq8qf0oKg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_9PUvVQslEfCIotq8qf0oKg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_9PUvVgslEfCIotq8qf0oKg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_9PUvUQslEfCIotq8qf0oKg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9PUvUgslEfCIotq8qf0oKg" x="35" y="44" width="93" height="43"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="__nqfwwslEfCIotq8qf0oKg" type="3008" element="__nqfsAslEfCIotq8qf0oKg">
+              <children xmi:type="notation:Node" xmi:id="__nqfxgslEfCIotq8qf0oKg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="__nqfxwslEfCIotq8qf0oKg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="__nqfyAslEfCIotq8qf0oKg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="__nqfyQslEfCIotq8qf0oKg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="__nqfxAslEfCIotq8qf0oKg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="__nqfxQslEfCIotq8qf0oKg" x="35" y="104" width="91" height="41"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_BIXdcAsmEfCIotq8qf0oKg" type="3008" element="_BIVoQAsmEfCIotq8qf0oKg">
+              <children xmi:type="notation:Node" xmi:id="_BIXdcwsmEfCIotq8qf0oKg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_BIYEgAsmEfCIotq8qf0oKg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_BIYEgQsmEfCIotq8qf0oKg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_BIYEggsmEfCIotq8qf0oKg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_BIXdcQsmEfCIotq8qf0oKg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BIXdcgsmEfCIotq8qf0oKg" x="35" y="154" width="91" height="41"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_CS-2cAsmEfCIotq8qf0oKg" type="3008" element="_CS8aMAsmEfCIotq8qf0oKg">
+              <children xmi:type="notation:Node" xmi:id="_CS-2cwsmEfCIotq8qf0oKg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_CS-2dAsmEfCIotq8qf0oKg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_CS-2dQsmEfCIotq8qf0oKg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_CS-2dgsmEfCIotq8qf0oKg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_CS-2cQsmEfCIotq8qf0oKg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CS-2cgsmEfCIotq8qf0oKg" x="35" y="214" width="93" height="43"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_41BHNQslEfCIotq8qf0oKg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_41BHNgslEfCIotq8qf0oKg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_41BHMQslEfCIotq8qf0oKg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_41BHMgslEfCIotq8qf0oKg" x="60" y="220" width="171" height="303"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Jman0AsmEfCIotq8qf0oKg" type="2002" element="_JmYLkAsmEfCIotq8qf0oKg">
+          <children xmi:type="notation:Node" xmi:id="_Jman0wsmEfCIotq8qf0oKg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_Jman1AsmEfCIotq8qf0oKg" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Jman1QsmEfCIotq8qf0oKg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Jman1gsmEfCIotq8qf0oKg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Jman0QsmEfCIotq8qf0oKg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jman0gsmEfCIotq8qf0oKg" x="590" y="130" width="161" height="61"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_U127wAsmEfCIotq8qf0oKg" type="2002" element="_U11GkAsmEfCIotq8qf0oKg">
+          <children xmi:type="notation:Node" xmi:id="_U13i0AsmEfCIotq8qf0oKg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_U13i0QsmEfCIotq8qf0oKg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_XIFdEAsmEfCIotq8qf0oKg" type="3008" element="_XIBysAsmEfCIotq8qf0oKg">
+              <children xmi:type="notation:Node" xmi:id="_XIFdEwsmEfCIotq8qf0oKg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_XIFdFAsmEfCIotq8qf0oKg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_XIFdFQsmEfCIotq8qf0oKg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_XIFdFgsmEfCIotq8qf0oKg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XIFdEQsmEfCIotq8qf0oKg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XIFdEgsmEfCIotq8qf0oKg" x="35" y="24" width="103" height="43"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_bMXK0AsmEfCIotq8qf0oKg" type="3008" element="_bMTgcAsmEfCIotq8qf0oKg">
+              <children xmi:type="notation:Node" xmi:id="_bMXK0wsmEfCIotq8qf0oKg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_bMXK1AsmEfCIotq8qf0oKg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_bMXK1QsmEfCIotq8qf0oKg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_bMXK1gsmEfCIotq8qf0oKg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_bMXK0QsmEfCIotq8qf0oKg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bMXK0gsmEfCIotq8qf0oKg" x="205" y="24" width="103" height="43"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_eWF74AsmEfCIotq8qf0oKg" type="3008" element="_eWC4kAsmEfCIotq8qf0oKg">
+              <children xmi:type="notation:Node" xmi:id="_eWF74wsmEfCIotq8qf0oKg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_eWF75AsmEfCIotq8qf0oKg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_eWF75QsmEfCIotq8qf0oKg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_eWF75gsmEfCIotq8qf0oKg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_eWF74QsmEfCIotq8qf0oKg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eWF74gsmEfCIotq8qf0oKg" x="375" y="24" width="113" height="43"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_U13i0gsmEfCIotq8qf0oKg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_U13i0wsmEfCIotq8qf0oKg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_U127wQsmEfCIotq8qf0oKg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U127wgsmEfCIotq8qf0oKg" x="320" y="520" width="543" height="81"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_fM75wgslEfCIotq8qf0oKg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_fNALMAslEfCIotq8qf0oKg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_fNALMQslEfCIotq8qf0oKg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_hGaj4AslEfCIotq8qf0oKg" name="ACME Bicycles">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#e1efac5f-249f-4fdb-b6f5-0e7604e4d256"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#e1efac5f-249f-4fdb-b6f5-0e7604e4d256"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_hGaj4QslEfCIotq8qf0oKg" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_40-q8AslEfCIotq8qf0oKg" name="Bike Rider">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#1fbe0f6f-5551-41b0-b22b-d1cc93902ba7"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#1fbe0f6f-5551-41b0-b22b-d1cc93902ba7"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_40-q8QslEfCIotq8qf0oKg" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_9PSTEAslEfCIotq8qf0oKg" name="Mountain Biker">
+        <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#bc60eb14-dd30-47f3-adc4-7f88391fb1a2"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#bc60eb14-dd30-47f3-adc4-7f88391fb1a2"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_9PSTEQslEfCIotq8qf0oKg" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="__nqfsAslEfCIotq8qf0oKg" name="Gravel Rider">
+        <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#e57b5175-33b8-4bc4-957b-25ad06f3a227"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#e57b5175-33b8-4bc4-957b-25ad06f3a227"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="__nqfsQslEfCIotq8qf0oKg" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_BIVoQAsmEfCIotq8qf0oKg" name="Road Rider">
+        <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#8b0f3d70-3fae-41e1-be11-8ff6cef0916d"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#8b0f3d70-3fae-41e1-be11-8ff6cef0916d"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_BIVoQQsmEfCIotq8qf0oKg" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_CS8aMAsmEfCIotq8qf0oKg" name="Cruiser">
+        <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#edea28f3-ef2f-4351-a4b5-269cd87f5266"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#edea28f3-ef2f-4351-a4b5-269cd87f5266"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_CS8aMQsmEfCIotq8qf0oKg" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_JmYLkAsmEfCIotq8qf0oKg" name="Bike Service Shop">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#ba34cfe9-50a3-4414-bee1-559a8d28ae03"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#ba34cfe9-50a3-4414-bee1-559a8d28ae03"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_JmYyoAsmEfCIotq8qf0oKg" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_U11GkAsmEfCIotq8qf0oKg" name="Environent">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#07af31e0-e8d6-4786-9f85-61bb77ba78b8"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#07af31e0-e8d6-4786-9f85-61bb77ba78b8"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_U11GkQsmEfCIotq8qf0oKg" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <customFeatures>labelAlignment</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_XIBysAsmEfCIotq8qf0oKg" name="Mountain Trails">
+        <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#6b39f5cc-acc5-48e5-96c0-725d8f200a17"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#6b39f5cc-acc5-48e5-96c0-725d8f200a17"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XIBysQsmEfCIotq8qf0oKg" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_bMTgcAsmEfCIotq8qf0oKg" name="Highway">
+        <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#c0b0bf39-d425-42c8-86a4-125196c35fb5"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#c0b0bf39-d425-42c8-86a4-125196c35fb5"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_bMTgcQsmEfCIotq8qf0oKg" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_eWC4kAsmEfCIotq8qf0oKg" name="Gravel, Sand, Snow">
+        <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#9fb0081f-9b48-48ca-92ee-15b96c6abab7"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Bicycle%20Market%20Expansion.capella#9fb0081f-9b48-48ca-92ee-15b96c6abab7"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_eWC4kQsmEfCIotq8qf0oKg" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_fM3oUQslEfCIotq8qf0oKg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer"/>
+    <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="Bicycle%20Market%20Expansion.capella#f0f87a1b-ea97-4d4f-ab8f-c82f49dda259"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
