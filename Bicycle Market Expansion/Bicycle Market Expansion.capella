@@ -13,6 +13,7 @@
     xmlns:org.polarsys.capella.core.data.information="http://www.polarsys.org/capella/core/information/6.0.0"
     xmlns:org.polarsys.capella.core.data.information.datatype="http://www.polarsys.org/capella/core/information/datatype/6.0.0"
     xmlns:org.polarsys.capella.core.data.information.datavalue="http://www.polarsys.org/capella/core/information/datavalue/6.0.0"
+    xmlns:org.polarsys.capella.core.data.interaction="http://www.polarsys.org/capella/core/interaction/6.0.0"
     xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/6.0.0"
     xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/6.0.0"
     xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
@@ -43,29 +44,332 @@
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalActivityPkg"
           id="75683210-8eeb-4413-9e58-9e717f86e40e" name="Operational Activities">
         <ownedOperationalActivities xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-            id="8ca4959d-3a5b-4480-bfa3-fea06c5a165c" name="Root Operational Activity"/>
+            id="8ca4959d-3a5b-4480-bfa3-fea06c5a165c" name="Root Operational Activity">
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="c3902a5a-572b-4953-85a1-a2737b9ff069" name="Improve Terrain Navigation">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="d3a6b9e6-c282-4a5e-ae56-c86aed867372" involved="#bca08679-04a4-4b12-8eed-61c81431ba52"
+                source="#7e808b74-893f-478a-914b-02ab9afb8551" target="#95fd1366-48df-458d-ba81-2e47c0ffb49f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="95fd1366-48df-458d-ba81-2e47c0ffb49f" involved="#8476e6c5-4a1d-40d3-bbfd-3c335bee1370"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="7e808b74-893f-478a-914b-02ab9afb8551" involved="#ebd89703-61ca-46fd-ab89-be2ff0768bd3"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="d1c50081-4398-40ac-a4e6-b55d45da53c0" involved="#e91f711f-330b-4d63-aab9-a89241b4b4c6"
+                source="#95fd1366-48df-458d-ba81-2e47c0ffb49f" target="#407182fe-b252-439f-8916-6e0b20606be9"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="407182fe-b252-439f-8916-6e0b20606be9" involved="#b1beaa15-45bb-4aa5-990b-27d703053c3c"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="b9e80df5-3ca5-42b1-8160-0453adaacde9" involved="#646aca5c-536c-4d81-b162-0d0cc9f0e360"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="84ab6fdf-ed54-4db1-ba7c-b3c2f398dd96" involved="#4cc6f7e3-7418-4f59-be9b-d6f2a0f2438a"
+                source="#b9e80df5-3ca5-42b1-8160-0453adaacde9" target="#cb4fa570-719d-48fc-84ad-1d45bd1e398f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="cb4fa570-719d-48fc-84ad-1d45bd1e398f" involved="#b191c347-9f1a-4825-aa42-0aedfa15f433"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="ebf3c352-c884-452f-b035-bd370ef6f09f" involved="#2460fa8f-0f5e-4986-8396-8bbfcf16d78b"
+                source="#cb4fa570-719d-48fc-84ad-1d45bd1e398f" target="#6ba46e00-2414-4f8d-b881-01677db95a9e"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="6ba46e00-2414-4f8d-b881-01677db95a9e" involved="#7a6e18ee-f12e-4ba4-9454-924084a9b4f0"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="f69a5b9f-7f4a-4ca6-8f78-da90f46cd4ba" involved="#646aca5c-536c-4d81-b162-0d0cc9f0e360"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="fb314972-1a5f-4543-9af9-2994f595638c" involved="#fdb01759-2371-438f-80dd-ec256e86605c"
+                source="#f69a5b9f-7f4a-4ca6-8f78-da90f46cd4ba" target="#7e808b74-893f-478a-914b-02ab9afb8551"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="66a56834-577b-46f6-b3f8-ef484ba79d4c" name="Ride Mountain Trails">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="832d877f-5415-495f-852f-9a3ea33e1cbc" involved="#989d4b01-5ff0-461d-a944-7a78e41a13f2"
+                source="#b92bd767-7b68-46a5-bb60-76b822b5bebe" target="#024761d6-9d24-4b4d-9f4a-7feb13d2bd3f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="024761d6-9d24-4b4d-9f4a-7feb13d2bd3f" involved="#f8612a52-446a-45e6-b572-76085116ff8b"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="b92bd767-7b68-46a5-bb60-76b822b5bebe" involved="#bb6749ee-fb98-4837-a1ad-6a71fa4f7f20"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="368c76f5-b88d-4a53-b55a-5680bd3adfcf" involved="#d3cf1e39-ce50-4f9a-a0b5-e5ee6d86cdd2"
+                source="#b92bd767-7b68-46a5-bb60-76b822b5bebe" target="#024761d6-9d24-4b4d-9f4a-7feb13d2bd3f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="74318efa-b3b8-4cc3-a3c5-43242a13356a" involved="#2b839795-e0a1-4318-8e6e-132c389ed603"
+                source="#b92bd767-7b68-46a5-bb60-76b822b5bebe" target="#024761d6-9d24-4b4d-9f4a-7feb13d2bd3f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="c053483d-8fe1-4d19-b3cb-11c93414e729" involved="#99fa3a55-4eba-421c-9083-6fcd22e0fcf6"
+                source="#b92bd767-7b68-46a5-bb60-76b822b5bebe" target="#024761d6-9d24-4b4d-9f4a-7feb13d2bd3f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="b8cea981-31e5-422e-a887-990bdc85e55f" involved="#8a336567-cdf0-45f1-9f23-bb7d8b5ffade"
+                source="#b7e23a9a-e960-43a9-9368-9716da0fc036" target="#024761d6-9d24-4b4d-9f4a-7feb13d2bd3f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="b7e23a9a-e960-43a9-9368-9716da0fc036" involved="#24a76df7-7b51-45cc-9e79-06e7fea9d9a6"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="3be052c0-b34c-42d3-9a6c-846e1423f57f" involved="#b8acf216-e6fe-401f-9bb7-5a3dc25c7ea3"
+                source="#9137d76f-8d15-40bc-93b4-d7c9dbb05192" target="#024761d6-9d24-4b4d-9f4a-7feb13d2bd3f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="9137d76f-8d15-40bc-93b4-d7c9dbb05192" involved="#7238b319-3167-424b-b9aa-19a99acb6b52"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="8e822763-a2c3-4d33-898c-e9346b575965" involved="#98e73432-ccd9-4a49-aacd-0842e446b87a"
+                source="#024761d6-9d24-4b4d-9f4a-7feb13d2bd3f" target="#2d851f29-c6ca-45f9-afdc-6764b2b061ca"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="2d851f29-c6ca-45f9-afdc-6764b2b061ca" involved="#fc47c3e4-3852-426e-a524-3a0c475db298"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="68a787d9-1d93-4c5b-9bb2-3a44bb027d45" name="Maintain Bike">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="0f2e7317-6d3a-4c3c-9928-270f2e0dbbac" involved="#57a8adb8-e55b-468a-ae28-ab35a03531ca"
+                source="#5f8dd4c7-0915-46f6-8789-6b06770d142d" target="#7e8768a8-9292-4306-b577-731b7b00bda9"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="7e8768a8-9292-4306-b577-731b7b00bda9" involved="#f8c12812-24ba-4d4a-b182-ec4c0a289a0c"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="5f8dd4c7-0915-46f6-8789-6b06770d142d" involved="#b83cf09d-bb0f-457c-b9f3-1a23397e40d2"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="ff1cb7fe-bab1-4927-a971-29a873730f11" involved="#7c02c5e7-db9f-4ab2-8b11-434860158732"
+                source="#7e8768a8-9292-4306-b577-731b7b00bda9" target="#55378163-3d58-413f-8fe3-2f5c2c99ac70"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="55378163-3d58-413f-8fe3-2f5c2c99ac70" involved="#ce59e6a9-bd07-4e98-977f-008e1e88ad34"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="56f229f0-87f1-4c2c-8a50-3518fc714bab" name="Terrain Adjust">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="ab4299e8-dfff-4fc2-89f6-e9bd4fcce155" involved="#9195468d-9d51-42db-bcf5-830cfa007678"
+                source="#3bb2c887-c041-435c-a42a-64c3af446387" target="#1a5d1d5a-5316-4757-b8ab-6fdd490676f0"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="1a5d1d5a-5316-4757-b8ab-6fdd490676f0" involved="#ce59e6a9-bd07-4e98-977f-008e1e88ad34"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="3bb2c887-c041-435c-a42a-64c3af446387" involved="#4a6fb302-35c5-4d20-b1a0-128c7bf32191"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="da0989f3-2dc1-4df0-b838-efd80a79c411" involved="#23bd42b9-150f-4cf7-8ac7-ec634b89e04b"
+                source="#1a5d1d5a-5316-4757-b8ab-6fdd490676f0" target="#5769c57c-0919-4e68-a20b-315c0a639147"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="5769c57c-0919-4e68-a20b-315c0a639147" involved="#46451156-5a65-4858-adf5-5be6cab1cd3a"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="73efba94-0aa1-49a7-9f5d-b2f839da716f" name="Enhance Fream and Suspension">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="3cd11df7-c41d-472a-be6a-71ba5de243fa" involved="#d1931b4f-6747-448d-9960-ed993d863cfc"
+                source="#264a48ee-a6f6-4849-a596-e416f1e96af8" target="#b350ca23-4974-4eee-acf4-80e3e2f6e4df"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="b350ca23-4974-4eee-acf4-80e3e2f6e4df" involved="#971107b8-9016-40cb-af76-a15d4419452c"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="264a48ee-a6f6-4849-a596-e416f1e96af8" involved="#646aca5c-536c-4d81-b162-0d0cc9f0e360"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="1b8ac4b0-effb-4d2c-ba11-4c32e28851f7" involved="#cf9a8762-78b4-4a54-b5fc-745b7d9d39b3"
+                source="#b350ca23-4974-4eee-acf4-80e3e2f6e4df" target="#e85d6999-1213-4ffe-8ab3-c4fe580af2aa"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="e85d6999-1213-4ffe-8ab3-c4fe580af2aa" involved="#8476e6c5-4a1d-40d3-bbfd-3c335bee1370"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="e6ceefe7-604b-43d8-9352-e609c95c7c7d" involved="#e91f711f-330b-4d63-aab9-a89241b4b4c6"
+                source="#e85d6999-1213-4ffe-8ab3-c4fe580af2aa" target="#1259a5ce-44f7-4272-982c-bb4d0220cc84"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="1259a5ce-44f7-4272-982c-bb4d0220cc84" involved="#b1beaa15-45bb-4aa5-990b-27d703053c3c"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="35eb2d78-85c3-44a5-8215-47056630a7c2" name="Improve for Weather">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="26263dd2-a493-4424-9055-0911c07139b1" involved="#87fee9db-4fed-4855-838e-f80b4f31dab5"
+                source="#910ea36b-e447-4cff-af00-8409f44222ca" target="#9ad33519-54a2-4eed-9f39-333b022faa41"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="9ad33519-54a2-4eed-9f39-333b022faa41" involved="#9ec46f92-64ab-4b7b-8919-684667ef453e"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="910ea36b-e447-4cff-af00-8409f44222ca" involved="#646aca5c-536c-4d81-b162-0d0cc9f0e360"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="d5485357-63cd-4ff2-a806-891320db55db" involved="#095c0b19-36bb-4e70-a736-cd6b6ff42b4d"
+                source="#9ad33519-54a2-4eed-9f39-333b022faa41" target="#2cdcdc13-d285-4b6c-a695-c9afc1a97e5c"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="2cdcdc13-d285-4b6c-a695-c9afc1a97e5c" involved="#8476e6c5-4a1d-40d3-bbfd-3c335bee1370"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="4f07b2f0-1d40-43a3-878e-359b02fce9a8" involved="#e91f711f-330b-4d63-aab9-a89241b4b4c6"
+                source="#2cdcdc13-d285-4b6c-a695-c9afc1a97e5c" target="#9aef9110-736b-4aa5-b8ca-ab5ba248206e"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="9aef9110-736b-4aa5-b8ca-ab5ba248206e" involved="#b1beaa15-45bb-4aa5-990b-27d703053c3c"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="3b647157-cfab-4044-b8e3-c55c52dec51b" name="Optimize for Balance">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="1b681cc3-0257-40ff-8b20-514334bfbae2" involved="#a4a2f3aa-83d8-4136-8f8c-d834e734cdfa"
+                source="#003e76b3-1d37-40f2-bbd1-2f091a41a42d" target="#06a6ea09-f408-4e91-bc55-c09cef61af17"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="06a6ea09-f408-4e91-bc55-c09cef61af17" involved="#d2e34d80-68bf-4a1a-bfb9-44f81f98142c"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="003e76b3-1d37-40f2-bbd1-2f091a41a42d" involved="#646aca5c-536c-4d81-b162-0d0cc9f0e360"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="c66bc79a-322a-4524-ac6a-93468280a099" involved="#c1c23eb2-c3d0-4801-98bd-3e5b726311a8"
+                source="#06a6ea09-f408-4e91-bc55-c09cef61af17" target="#225cb0b9-2e87-435d-8e85-02c50cd0dde0"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="225cb0b9-2e87-435d-8e85-02c50cd0dde0" involved="#8476e6c5-4a1d-40d3-bbfd-3c335bee1370"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="fa904e59-2bbe-4d59-b3e1-e9c6bc4db615" involved="#e91f711f-330b-4d63-aab9-a89241b4b4c6"
+                source="#225cb0b9-2e87-435d-8e85-02c50cd0dde0" target="#9e41bd77-bf15-4ae4-80df-cdd8a6653d2f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="9e41bd77-bf15-4ae4-80df-cdd8a6653d2f" involved="#b1beaa15-45bb-4aa5-990b-27d703053c3c"/>
+          </ownedFunctionalChains>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="4a6fb302-35c5-4d20-b1a0-128c7bf32191" name="Identification of Terrain Chalenge"
+              description="&lt;p>The Mountain Biker identifies and assesses the upcoming challenges on the Mountain Trails, such as steep inclines, technical sections, and obstacles.&lt;/p>&#xA;"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="ce59e6a9-bd07-4e98-977f-008e1e88ad34" name="Terrain Adjustment"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="46451156-5a65-4858-adf5-5be6cab1cd3a" name="Accept adjustment for Terrain"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="f8612a52-446a-45e6-b572-76085116ff8b" name="Ride Trail" description="&lt;p>The Mountain Bike is maneuvered over the trails, utilizing its design attributes such as suspension, shock absorption, and maneuverability to overcome obstacles, supported by the input and control of the Mountain Biker.&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>&lt;span style=&quot;background: white;&quot;>As the Mountain Biker navigates Mountain Trails, the bike&amp;#39;s shock absorption technology minimizes rider fatigue and enhances control by absorbing impacts from rough surfaces and obstacles.&lt;/span>&lt;/p>&#xA;"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="bb6749ee-fb98-4837-a1ad-6a71fa4f7f20" name="Ride Execution"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="7238b319-3167-424b-b9aa-19a99acb6b52" name="Obstacles"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="24a76df7-7b51-45cc-9e79-06e7fea9d9a6" name="Rugged Terrain"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="b83cf09d-bb0f-457c-b9f3-1a23397e40d2" name="Observed Ride" description="&lt;p>from Mountain Bikers regarding the bike&amp;#39;s performance on various terrains. This data is used to improve design and functionality, ensuring future models better fulfill the Terrain Navigation capability.&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>&lt;span style=&quot;background: white;&quot;>Feedback from riders and performance data&lt;/span>&lt;/p>&#xA;"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="646aca5c-536c-4d81-b162-0d0cc9f0e360" name="Monitor Reviews" description="&lt;p>ACME Bicycles receives feedback from Mountain Bikers regarding the bike&amp;#39;s performance on various terrains. This data is used to improve design and functionality, ensuring future models better fulfill the Terrain Navigation capability.&lt;/p>&#xA;&#xA;&lt;p>&lt;span style=&quot;background: white;&quot;>Feedback from riders and performance data is gathered by ACME Bicycles to refine materials and design, ensuring future models provide even better durability and shock absorption. This includes addressing any weaknesses reported by riders after trails.&lt;/span>&lt;/p>&#xA;"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="ebd89703-61ca-46fd-ab89-be2ff0768bd3" name="Enhance Trail Navigation Effiencey"
+              description="&lt;p>ACME Bicycles receives feedback from Mountain Bikers regarding the bike&amp;#39;s performance on various terrains. This data is used to improve design and functionality, ensuring future models better fulfill the Terrain Navigation capability.&lt;/p>&#xA;"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="b1beaa15-45bb-4aa5-990b-27d703053c3c" name="Receive Bike"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="8476e6c5-4a1d-40d3-bbfd-3c335bee1370" name="Build Bike"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="7a6e18ee-f12e-4ba4-9454-924084a9b4f0" name="Update Bike"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="b191c347-9f1a-4825-aa42-0aedfa15f433" name="Update Kits"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="f8c12812-24ba-4d4a-b182-ec4c0a289a0c" name="Maintain Bike" description="&lt;p>&lt;br />&#xA;&lt;span style=&quot;background: white;&quot;>Regular maintenance checks at Bike Service Shops are essential to ensure ongoing durability and performance, replacing worn components and fine-tuning the bike for better shock management.&lt;/span>&lt;/p>&#xA;&#xA;&lt;p>Routine checks and adjustments in the Bike Service Shop help maintain the bike&amp;#39;s competitive edge in maneuverability, ensuring components like gears and shocks are operating at their best.&lt;/p>&#xA;&#xA;&lt;p>Regular checks and climate-specific servicing at the Bike Service Shop are essential to preserving the bike&amp;#39;s adaptability, ensuring components are weatherproofed and functioning correctly.&lt;/p>&#xA;&#xA;&lt;p>&lt;br />&#xA;&lt;span style=&quot;background: white;&quot;>Regular maintenance checks at Bike Service Shops are essential to ensure ongoing durability and performance, replacing worn components and fine-tuning the bike for better shock management.&lt;/span>&lt;/p>&#xA;"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="fc47c3e4-3852-426e-a524-3a0c475db298" name="Display Ger Selection"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="971107b8-9016-40cb-af76-a15d4419452c" name="Enhance Frame and Suspension"
+              description="&lt;p>&lt;span style=&quot;background: white;&quot;>ACME Bicycles incorporates advanced materials and design techniques, such as reinforced frames and suspension systems, to enhance the Mountain Bike&amp;#39;s durability and shock absorption capabilities.&lt;/span>&lt;/p>&#xA;"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="9ec46f92-64ab-4b7b-8919-684667ef453e" name="Designed for Diverse Weather"
+              description="&lt;p>ACME Bicycles integrates features such as weather-resistant materials, all-terrain tires, and corrosion prevention to enhance the Mountain Bike&amp;#39;s adaptability to different climatic conditions.&lt;/p>&#xA;"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="d2e34d80-68bf-4a1a-bfb9-44f81f98142c" name="Optimize for Balance"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="9195468d-9d51-42db-bcf5-830cfa007678" name="Prep for Ride" target="#ce59e6a9-bd07-4e98-977f-008e1e88ad34"
+              source="#4a6fb302-35c5-4d20-b1a0-128c7bf32191"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="23bd42b9-150f-4cf7-8ac7-ec634b89e04b" name="Adjust" target="#46451156-5a65-4858-adf5-5be6cab1cd3a"
+              source="#ce59e6a9-bd07-4e98-977f-008e1e88ad34"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="d2d7aebc-3ad3-4395-a7ad-cc49d3c06716" name="Ride" target="#bb6749ee-fb98-4837-a1ad-6a71fa4f7f20"
+              source="#ce59e6a9-bd07-4e98-977f-008e1e88ad34"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="2b839795-e0a1-4318-8e6e-132c389ed603" name="Hands" target="#f8612a52-446a-45e6-b572-76085116ff8b"
+              source="#bb6749ee-fb98-4837-a1ad-6a71fa4f7f20"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="b8acf216-e6fe-401f-9bb7-5a3dc25c7ea3" name="Interaction 5" target="#f8612a52-446a-45e6-b572-76085116ff8b"
+              source="#7238b319-3167-424b-b9aa-19a99acb6b52"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="8a336567-cdf0-45f1-9f23-bb7d8b5ffade" name="Interaction 6" target="#f8612a52-446a-45e6-b572-76085116ff8b"
+              source="#24a76df7-7b51-45cc-9e79-06e7fea9d9a6"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="d858b534-0393-4a7f-902a-950762037628" name="Ride Comfort" target="#b83cf09d-bb0f-457c-b9f3-1a23397e40d2"
+              source="#f8612a52-446a-45e6-b572-76085116ff8b"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="a3cdcd24-2832-4583-92dd-7fd368f08fc0" name="Feedbak" target="#646aca5c-536c-4d81-b162-0d0cc9f0e360"
+              source="#b83cf09d-bb0f-457c-b9f3-1a23397e40d2"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="fdb01759-2371-438f-80dd-ec256e86605c" name="Interaction 9" target="#ebd89703-61ca-46fd-ab89-be2ff0768bd3"
+              source="#646aca5c-536c-4d81-b162-0d0cc9f0e360"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="bca08679-04a4-4b12-8eed-61c81431ba52" name="Interaction 10" target="#8476e6c5-4a1d-40d3-bbfd-3c335bee1370"
+              source="#ebd89703-61ca-46fd-ab89-be2ff0768bd3"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="e91f711f-330b-4d63-aab9-a89241b4b4c6" name="Interaction 11" target="#b1beaa15-45bb-4aa5-990b-27d703053c3c"
+              source="#8476e6c5-4a1d-40d3-bbfd-3c335bee1370"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="5b8b3bf1-e92a-4c7e-a3bb-652abac39949" name="Interaction 12" target="#4a6fb302-35c5-4d20-b1a0-128c7bf32191"
+              source="#b1beaa15-45bb-4aa5-990b-27d703053c3c"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="4cc6f7e3-7418-4f59-be9b-d6f2a0f2438a" name="Interaction 13" target="#b191c347-9f1a-4825-aa42-0aedfa15f433"
+              source="#646aca5c-536c-4d81-b162-0d0cc9f0e360"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="2460fa8f-0f5e-4986-8396-8bbfcf16d78b" name="Interaction 14" target="#7a6e18ee-f12e-4ba4-9454-924084a9b4f0"
+              source="#b191c347-9f1a-4825-aa42-0aedfa15f433"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="673ea9f3-9af8-490c-88fa-724f2172ed87" name="Interaction 15" target="#ce59e6a9-bd07-4e98-977f-008e1e88ad34"
+              source="#7a6e18ee-f12e-4ba4-9454-924084a9b4f0"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="57a8adb8-e55b-468a-ae28-ab35a03531ca" name="Interaction 16" target="#f8c12812-24ba-4d4a-b182-ec4c0a289a0c"
+              source="#b83cf09d-bb0f-457c-b9f3-1a23397e40d2"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="7c02c5e7-db9f-4ab2-8b11-434860158732" name="Interaction 17" target="#ce59e6a9-bd07-4e98-977f-008e1e88ad34"
+              source="#f8c12812-24ba-4d4a-b182-ec4c0a289a0c"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="d3cf1e39-ce50-4f9a-a0b5-e5ee6d86cdd2" name="Pedals" target="#f8612a52-446a-45e6-b572-76085116ff8b"
+              source="#bb6749ee-fb98-4837-a1ad-6a71fa4f7f20"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="989d4b01-5ff0-461d-a944-7a78e41a13f2" name="Body" target="#f8612a52-446a-45e6-b572-76085116ff8b"
+              source="#bb6749ee-fb98-4837-a1ad-6a71fa4f7f20"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="0f0f5b85-c50d-4a62-972b-abef21210850" name="Observations" target="#bb6749ee-fb98-4837-a1ad-6a71fa4f7f20"
+              source="#24a76df7-7b51-45cc-9e79-06e7fea9d9a6"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="a9a096e5-2b9f-40c9-b901-571e782c741c" name="Observations" target="#bb6749ee-fb98-4837-a1ad-6a71fa4f7f20"
+              source="#7238b319-3167-424b-b9aa-19a99acb6b52"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="bc94f403-6460-4118-aa9a-214357c22526" name="Gear Position" target="#bb6749ee-fb98-4837-a1ad-6a71fa4f7f20"
+              source="#fc47c3e4-3852-426e-a524-3a0c475db298"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="98e73432-ccd9-4a49-aacd-0842e446b87a" name="Gear" target="#fc47c3e4-3852-426e-a524-3a0c475db298"
+              source="#f8612a52-446a-45e6-b572-76085116ff8b"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="99fa3a55-4eba-421c-9083-6fcd22e0fcf6" name="Finger Contoler" target="#f8612a52-446a-45e6-b572-76085116ff8b"
+              source="#bb6749ee-fb98-4837-a1ad-6a71fa4f7f20"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="d1931b4f-6747-448d-9960-ed993d863cfc" name="Interaction 25" target="#971107b8-9016-40cb-af76-a15d4419452c"
+              source="#646aca5c-536c-4d81-b162-0d0cc9f0e360"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="cf9a8762-78b4-4a54-b5fc-745b7d9d39b3" name="Interaction 26" target="#8476e6c5-4a1d-40d3-bbfd-3c335bee1370"
+              source="#971107b8-9016-40cb-af76-a15d4419452c"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="87fee9db-4fed-4855-838e-f80b4f31dab5" name="Interaction 27" target="#9ec46f92-64ab-4b7b-8919-684667ef453e"
+              source="#646aca5c-536c-4d81-b162-0d0cc9f0e360"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="095c0b19-36bb-4e70-a736-cd6b6ff42b4d" name="Interaction 28" target="#8476e6c5-4a1d-40d3-bbfd-3c335bee1370"
+              source="#9ec46f92-64ab-4b7b-8919-684667ef453e"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="c1c23eb2-c3d0-4801-98bd-3e5b726311a8" name="Interaction 29" target="#8476e6c5-4a1d-40d3-bbfd-3c335bee1370"
+              source="#d2e34d80-68bf-4a1a-bfb9-44f81f98142c"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="a4a2f3aa-83d8-4136-8f8c-d834e734cdfa" name="Interaction 30" target="#d2e34d80-68bf-4a1a-bfb9-44f81f98142c"
+              source="#646aca5c-536c-4d81-b162-0d0cc9f0e360"/>
+        </ownedOperationalActivities>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
           id="f0f87a1b-ea97-4d4f-ab8f-c82f49dda259" name="Operational Capabilities">
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="f4be38c8-4c31-4561-ada0-210630917104" name="Terrain Navigation">
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="45e7637f-6522-45db-bc90-ddca57f744c2" included="#55cd81bf-e951-470b-9652-3ddf159ecfed"/>
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="e1466adf-f476-4006-aab3-fe94038b7408" included="#a990049c-b60c-4b93-bdeb-7a928860e900"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="20722ff2-1304-4c07-9a41-40745e46f9ab" involved="#c3902a5a-572b-4953-85a1-a2737b9ff069"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="3f1e322e-a456-43da-b5f5-dbe3053080fd" involved="#66a56834-577b-46f6-b3f8-ef484ba79d4c"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="9482f1d3-ba45-4f54-ab8a-d9102a78982b" involved="#68a787d9-1d93-4c5b-9bb2-3a44bb027d45"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="d2bc1b5d-ab53-4efc-bf46-f1fc2592bdad" involved="#56f229f0-87f1-4c2c-8a50-3518fc714bab"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="a5ddfbda-fbb2-4885-bda1-15c383f9c585" involved="#bc60eb14-dd30-47f3-adc4-7f88391fb1a2"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="03642d4e-125d-4015-83ce-0073aba5dcd8" involved="#6b39f5cc-acc5-48e5-96c0-725d8f200a17"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="8c0ac2c1-dd29-42fc-8fe7-d90a90676aa4" involved="#ac79b27b-e344-42eb-9a2a-24897e5b0f1b"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="5291df95-2030-4f7b-9adc-c09dc512a092" involved="#e1efac5f-249f-4fdb-b6f5-0e7604e4d256"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="b6bed789-1ef6-46da-8884-c3a9677ecbfc" name="Durability and Shock Absorption">
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="f2fae67b-f2ac-41d7-8b0d-bad4a5486132" included="#55cd81bf-e951-470b-9652-3ddf159ecfed"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="00fd04a1-bf7e-4886-8858-4af13601af99" involved="#66a56834-577b-46f6-b3f8-ef484ba79d4c"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="4f05a3ac-15b6-4bc2-b274-ef0a65c93a18" involved="#68a787d9-1d93-4c5b-9bb2-3a44bb027d45"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="e8fc3cb9-aab3-4f4f-891d-29c618e16372" involved="#73efba94-0aa1-49a7-9f5d-b2f839da716f"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="3bedc93e-62e9-4750-aa44-8c59aa92403b" involved="#56f229f0-87f1-4c2c-8a50-3518fc714bab"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="daefd34c-9bc7-497b-b2c6-d4f379fc9cab" involved="#bc60eb14-dd30-47f3-adc4-7f88391fb1a2"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="7d3512ee-69fc-40aa-b096-d9c82606804f" involved="#6b39f5cc-acc5-48e5-96c0-725d8f200a17"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="539ee197-10a3-4b1b-9bc8-b88d249eb600" involved="#ac79b27b-e344-42eb-9a2a-24897e5b0f1b"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="40f9a9a2-cc05-41df-b52e-d13b33603d19" involved="#e1efac5f-249f-4fdb-b6f5-0e7604e4d256"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -73,25 +377,37 @@
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="b6b4ed90-849b-43a5-81d5-fb49950f145a" name="Climatic Adabptability">
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="ec3698c0-873e-40ab-bed5-70d15f3e26a3" included="#55cd81bf-e951-470b-9652-3ddf159ecfed"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="6e778e8f-763d-474e-9bcf-f31193a0c637" involved="#66a56834-577b-46f6-b3f8-ef484ba79d4c"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="fedb23ba-76c3-4536-9020-a9db30676a75" involved="#68a787d9-1d93-4c5b-9bb2-3a44bb027d45"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="2f008290-a437-455c-a53e-dc4dee76863c" involved="#56f229f0-87f1-4c2c-8a50-3518fc714bab"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="42dbd97f-9ba4-4b0a-a68d-e12b1ad25ef2" involved="#35eb2d78-85c3-44a5-8215-47056630a7c2"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="56ebecc1-c69d-4338-ab08-ea1880409a54" involved="#bc60eb14-dd30-47f3-adc4-7f88391fb1a2"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="68c6e5ff-88b5-4996-b624-99ec326ed8f5" involved="#6b39f5cc-acc5-48e5-96c0-725d8f200a17"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="c73f3647-fc6a-4630-aba9-e061d7fb238d" involved="#ac79b27b-e344-42eb-9a2a-24897e5b0f1b"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="5be7983e-b60a-4a7e-a15b-73eeeff352d4" involved="#e1efac5f-249f-4fdb-b6f5-0e7604e4d256"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="99b1a6ff-9867-4785-a72b-42c128c5a5dd" involved="#ba34cfe9-50a3-4414-bee1-559a8d28ae03"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="44b8dc6e-579f-41b0-8af9-04524347166c" name="Maneurability">
+            id="44b8dc6e-579f-41b0-8af9-04524347166c" name="Maneuverability">
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="726fc52c-a338-4ae8-9135-6db07097e3d4" included="#55cd81bf-e951-470b-9652-3ddf159ecfed"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="b737f40b-dacc-4688-8a01-ef1ad0ae8e52" involved="#66a56834-577b-46f6-b3f8-ef484ba79d4c"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="d34329c3-ac3d-424b-9a9e-4e71b50801fb" involved="#68a787d9-1d93-4c5b-9bb2-3a44bb027d45"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="7ef9d464-5b53-4297-a9dd-0beebbbdecb8" involved="#56f229f0-87f1-4c2c-8a50-3518fc714bab"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="358cf2d1-d4e3-45c5-90ee-642d1989437d" involved="#3b647157-cfab-4044-b8e3-c55c52dec51b"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="29e0fa2e-9da9-4d5f-9243-202f0c8d6658" involved="#bc60eb14-dd30-47f3-adc4-7f88391fb1a2"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="9907ca36-9cec-4e7d-9e6e-428f89ddc22a" involved="#6b39f5cc-acc5-48e5-96c0-725d8f200a17"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="29b1e9fc-9ae2-4cfd-8173-6126b8d43dab" involved="#ac79b27b-e344-42eb-9a2a-24897e5b0f1b"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="72e6f5f5-9cf5-48ea-b013-2c0bdfc1d27b" involved="#ba34cfe9-50a3-4414-bee1-559a8d28ae03"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -242,6 +558,22 @@
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="cc7f4ce9-c7a5-4512-bbc9-0a6ebfa65fee" involved="#6b28f8e0-dd38-48f3-8c4e-12d87ea963e4"/>
         </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="55cd81bf-e951-470b-9652-3ddf159ecfed" name="Mountain Trial Ride">
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="7ac06e00-6c60-4701-bcfd-13b1e261f241" involved="#66a56834-577b-46f6-b3f8-ef484ba79d4c"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="509a0c09-adda-4326-9ef2-acb6b2d541bb" involved="#6b39f5cc-acc5-48e5-96c0-725d8f200a17"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="fd9be5f3-ee00-43cb-8871-12fb5a927c9f" involved="#ac79b27b-e344-42eb-9a2a-24897e5b0f1b"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="55234eaf-fcae-4c34-a96c-92a39857dff4" involved="#c0b0bf39-d425-42c8-86a4-125196c35fb5"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="a990049c-b60c-4b93-bdeb-7a928860e900" name="Terrain Adjustmnt">
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="e13d11b0-788f-4910-b243-0a8ef64f5cce" involved="#56f229f0-87f1-4c2c-8a50-3518fc714bab"/>
+        </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="c02462fe-0c87-4a76-ac18-8834c56b92a5" name="Interfaces"/>
@@ -269,7 +601,26 @@
             name="Ebike Cruiser" abstractType="#6b28f8e0-dd38-48f3-8c4e-12d87ea963e4"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="e1efac5f-249f-4fdb-b6f5-0e7604e4d256"
             name="ACME Bicycles" description="&lt;p>&lt;span style=&quot;font-size: 11pt;&quot;>&lt;span style=&quot;line-height: 107%;&quot;>&lt;span style=&quot;font-family: &amp;quot;Aptos&amp;quot;,sans-serif;&quot;>&lt;font color=&quot;#000000&quot;>ACME currently makes mountain bikes and would like to expand their market share to include other bike formats such as road, gravel and electric bikes. &lt;/font>&lt;/span>&lt;/span>&lt;/span>&lt;/p>&#xA;"
-            actor="true" human="true"/>
+            actor="true" human="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="d79ae106-36e2-4cc7-abd3-02c4b71abf4a" targetElement="#646aca5c-536c-4d81-b162-0d0cc9f0e360"
+              sourceElement="#e1efac5f-249f-4fdb-b6f5-0e7604e4d256"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="9b948ae7-f80b-4a8c-8f21-f3e036b3f7f7" targetElement="#ebd89703-61ca-46fd-ab89-be2ff0768bd3"
+              sourceElement="#e1efac5f-249f-4fdb-b6f5-0e7604e4d256"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="dbc50d66-0220-4c9b-bc7c-32dc5843c44d" targetElement="#b191c347-9f1a-4825-aa42-0aedfa15f433"
+              sourceElement="#e1efac5f-249f-4fdb-b6f5-0e7604e4d256"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="53423fc5-0639-4c3e-9ebd-a2f82c78b7e6" targetElement="#971107b8-9016-40cb-af76-a15d4419452c"
+              sourceElement="#e1efac5f-249f-4fdb-b6f5-0e7604e4d256"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="6235c52c-62b8-46c1-9428-c3988a278a60" targetElement="#9ec46f92-64ab-4b7b-8919-684667ef453e"
+              sourceElement="#e1efac5f-249f-4fdb-b6f5-0e7604e4d256"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="d4f03b9d-9109-4b1c-9675-2704a2fefd41" targetElement="#d2e34d80-68bf-4a1a-bfb9-44f81f98142c"
+              sourceElement="#e1efac5f-249f-4fdb-b6f5-0e7604e4d256"/>
+        </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="1fbe0f6f-5551-41b0-b22b-d1cc93902ba7"
             name="Bike Rider" description="&lt;p>The rider is a hobbyist who is willing to pay for a moderate priced bike.&lt;/p>&#xA;">
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="5ba8f0b8-9c32-46b7-8ca2-d787f0b1fea0"
@@ -281,7 +632,23 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="fad42057-01d3-442e-b783-22a5838f90f6"
               name="Cruiser" abstractType="#edea28f3-ef2f-4351-a4b5-269cd87f5266"/>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="bc60eb14-dd30-47f3-adc4-7f88391fb1a2"
-              name="Mountain Biker" description="&lt;p>This rider is a mountain bike enthusiast, who enjoys riding moderate to difficult trails. This person does it for hobby, and looking for a reasonable cost bike.&lt;/p>&#xA;"/>
+              name="Mountain Biker" description="&lt;p>This rider is a mountain bike enthusiast, who enjoys riding moderate to difficult trails. This person does it for hobby, and looking for a reasonable cost bike.&lt;/p>&#xA;">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="1c633972-2918-4ff2-82b0-cd8d2c2fb758" targetElement="#4a6fb302-35c5-4d20-b1a0-128c7bf32191"
+                sourceElement="#bc60eb14-dd30-47f3-adc4-7f88391fb1a2"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="fc908fcd-48f6-465d-89ca-69b25891a45a" targetElement="#ce59e6a9-bd07-4e98-977f-008e1e88ad34"
+                sourceElement="#bc60eb14-dd30-47f3-adc4-7f88391fb1a2"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="d42fafaa-df0a-4b18-82eb-b45d877f9a3c" targetElement="#bb6749ee-fb98-4837-a1ad-6a71fa4f7f20"
+                sourceElement="#bc60eb14-dd30-47f3-adc4-7f88391fb1a2"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="d8434068-84a9-4376-a0dc-40502502c8ca" targetElement="#b83cf09d-bb0f-457c-b9f3-1a23397e40d2"
+                sourceElement="#bc60eb14-dd30-47f3-adc4-7f88391fb1a2"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="2572e252-7e9a-4afe-8149-f6cc6799d87d" targetElement="#b1beaa15-45bb-4aa5-990b-27d703053c3c"
+                sourceElement="#bc60eb14-dd30-47f3-adc4-7f88391fb1a2"/>
+          </ownedEntities>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="e57b5175-33b8-4bc4-957b-25ad06f3a227"
               name="Gravel Rider" description="&lt;p>This rider may or may not have a one of our mountain bikes, but would now like to have a bike to ride in more diverse terrain such as gravel, snow, or sand. This bike would be similar in price to mountain bike.&lt;/p>&#xA;"/>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="8b0f3d70-3fae-41e1-be11-8ff6cef0916d"
@@ -291,7 +658,17 @@
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="ba34cfe9-50a3-4414-bee1-559a8d28ae03"
             name="Bike Service Shop" description="&lt;p>These shops repair all formats of bikes.&lt;/p>&#xA;"
-            actor="true" human="true"/>
+            actor="true" human="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="cb7e65d3-ba23-43fb-8362-771f0decc38e" targetElement="#8476e6c5-4a1d-40d3-bbfd-3c335bee1370"
+              sourceElement="#ba34cfe9-50a3-4414-bee1-559a8d28ae03"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="09f51bf8-f78d-4511-9ec2-77ece07036d5" targetElement="#7a6e18ee-f12e-4ba4-9454-924084a9b4f0"
+              sourceElement="#ba34cfe9-50a3-4414-bee1-559a8d28ae03"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="5206c6db-20a5-4d23-940e-5e535a0f18a7" targetElement="#f8c12812-24ba-4d4a-b182-ec4c0a289a0c"
+              sourceElement="#ba34cfe9-50a3-4414-bee1-559a8d28ae03"/>
+        </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="07af31e0-e8d6-4786-9f85-61bb77ba78b8"
             name="Environent">
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="1d828d51-b34b-4485-9bd6-b2972124a90c"
@@ -301,14 +678,31 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7b9d0ec8-b20a-41f5-99d6-b8929b7332e7"
               name="Gravel, Sand, Snow" abstractType="#9fb0081f-9b48-48ca-92ee-15b96c6abab7"/>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="6b39f5cc-acc5-48e5-96c0-725d8f200a17"
-              name="Mountain Trails" description="&lt;h3 data-end=&quot;369&quot; data-start=&quot;337&quot;>&lt;strong data-end=&quot;369&quot; data-start=&quot;341&quot;>Trail Network and Design&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;p data-end=&quot;590&quot; data-start=&quot;370&quot;>Mountain bike trail systems usually consist of interconnected loops, out-and-back trails, and sometimes point-to-point routes. Trails are often categorized by difficulty level, marked with standardized colors or symbols:&lt;/p>&#xA;&#xA;&lt;ul data-end=&quot;975&quot; data-start=&quot;591&quot;>&#xA;&#x9;&lt;li data-end=&quot;670&quot; data-start=&quot;591&quot;>&#xA;&#x9;&lt;p data-end=&quot;670&quot; data-start=&quot;593&quot;>&lt;strong data-end=&quot;602&quot; data-start=&quot;593&quot;>Green&lt;/strong>: Easiest, suitable for beginners with gentle slopes and wide paths.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;767&quot; data-start=&quot;671&quot;>&#xA;&#x9;&lt;p data-end=&quot;767&quot; data-start=&quot;673&quot;>&lt;strong data-end=&quot;681&quot; data-start=&quot;673&quot;>Blue&lt;/strong>: Intermediate, featuring moderate climbs, technical sections, and narrow singletrack.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;867&quot; data-start=&quot;768&quot;>&#xA;&#x9;&lt;p data-end=&quot;867&quot; data-start=&quot;770&quot;>&lt;strong data-end=&quot;779&quot; data-start=&quot;770&quot;>Black&lt;/strong>: Advanced, including steep climbs, rock gardens, drops, and other challenging features.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;975&quot; data-start=&quot;868&quot;>&#xA;&#x9;&lt;p data-end=&quot;975&quot; data-start=&quot;870&quot;>&lt;strong data-end=&quot;886&quot; data-start=&quot;870&quot;>Double Black&lt;/strong>: Expert-level trails, often with extreme terrain, exposed areas, and man-made obstacles.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p data-end=&quot;1196&quot; data-start=&quot;977&quot;>Trail systems are typically designed to minimize environmental impact while maximizing rider enjoyment. Features like berms, jumps, and switchbacks are carefully integrated to maintain the natural flow of the landscape.&lt;/p>&#xA;&#xA;&lt;h3 data-end=&quot;338&quot; data-start=&quot;304&quot;>&lt;strong data-end=&quot;338&quot; data-start=&quot;308&quot;>Typical Weather Conditions&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;995&quot; data-start=&quot;339&quot;>&#xA;&#x9;&lt;li data-end=&quot;498&quot; data-start=&quot;339&quot;>&#xA;&#x9;&lt;p data-end=&quot;498&quot; data-start=&quot;341&quot;>&lt;strong data-end=&quot;369&quot; data-start=&quot;341&quot;>Mild to Moderate Weather&lt;/strong>: Mountain bikes are often used in spring, summer, and early autumn when temperatures range from &lt;strong data-end=&quot;497&quot; data-start=&quot;466&quot;>50&amp;deg;F to 80&amp;deg;F (10&amp;deg;C to 27&amp;deg;C)&lt;/strong>.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;626&quot; data-start=&quot;499&quot;>&#xA;&#x9;&lt;p data-end=&quot;626&quot; data-start=&quot;501&quot;>&lt;strong data-end=&quot;529&quot; data-start=&quot;501&quot;>Dry Conditions Preferred&lt;/strong>: Dry trails offer optimal grip, but mountain bikes are also capable of handling damp conditions.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;843&quot; data-start=&quot;627&quot;>&#xA;&#x9;&lt;p data-end=&quot;843&quot; data-start=&quot;629&quot;>&lt;strong data-end=&quot;651&quot; data-start=&quot;629&quot;>Light Rain and Mud&lt;/strong>: Many mountain bikes are equipped with treaded tires designed to maintain traction in muddy conditions. However, heavy rain can lead to trail erosion, making some trails impassable or unsafe.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;995&quot; data-start=&quot;844&quot;>&#xA;&#x9;&lt;p data-end=&quot;995&quot; data-start=&quot;846&quot;>&lt;strong data-end=&quot;879&quot; data-start=&quot;846&quot;>Cooler High-Altitude Climates&lt;/strong>: In mountainous regions, weather can change rapidly, with cooler temperatures and possible afternoon thunderstorms.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;h3 data-end=&quot;1025&quot; data-start=&quot;997&quot;>&lt;strong data-end=&quot;1025&quot; data-start=&quot;1001&quot;>Hazards to Watch For&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;1161&quot; data-start=&quot;1026&quot;>&#xA;&#x9;&lt;li data-end=&quot;1073&quot; data-start=&quot;1026&quot;>&#xA;&#x9;&lt;p data-end=&quot;1073&quot; data-start=&quot;1028&quot;>Sudden weather changes in alpine environments&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1108&quot; data-start=&quot;1074&quot;>&#xA;&#x9;&lt;p data-end=&quot;1108&quot; data-start=&quot;1076&quot;>Slick rocks and roots after rain&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1161&quot; data-start=&quot;1109&quot;>&#xA;&#x9;&lt;p data-end=&quot;1161&quot; data-start=&quot;1111&quot;>Increased risk of hypothermia in cold, wet weather&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p data-end=&quot;1196&quot; data-start=&quot;977&quot;>&amp;nbsp;&lt;/p>&#xA;"/>
+              name="Mountain Trails" description="&lt;h3 data-end=&quot;369&quot; data-start=&quot;337&quot;>&lt;strong data-end=&quot;369&quot; data-start=&quot;341&quot;>Trail Network and Design&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;p data-end=&quot;590&quot; data-start=&quot;370&quot;>Mountain bike trail systems usually consist of interconnected loops, out-and-back trails, and sometimes point-to-point routes. Trails are often categorized by difficulty level, marked with standardized colors or symbols:&lt;/p>&#xA;&#xA;&lt;ul data-end=&quot;975&quot; data-start=&quot;591&quot;>&#xA;&#x9;&lt;li data-end=&quot;670&quot; data-start=&quot;591&quot;>&#xA;&#x9;&lt;p data-end=&quot;670&quot; data-start=&quot;593&quot;>&lt;strong data-end=&quot;602&quot; data-start=&quot;593&quot;>Green&lt;/strong>: Easiest, suitable for beginners with gentle slopes and wide paths.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;767&quot; data-start=&quot;671&quot;>&#xA;&#x9;&lt;p data-end=&quot;767&quot; data-start=&quot;673&quot;>&lt;strong data-end=&quot;681&quot; data-start=&quot;673&quot;>Blue&lt;/strong>: Intermediate, featuring moderate climbs, technical sections, and narrow singletrack.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;867&quot; data-start=&quot;768&quot;>&#xA;&#x9;&lt;p data-end=&quot;867&quot; data-start=&quot;770&quot;>&lt;strong data-end=&quot;779&quot; data-start=&quot;770&quot;>Black&lt;/strong>: Advanced, including steep climbs, rock gardens, drops, and other challenging features.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;975&quot; data-start=&quot;868&quot;>&#xA;&#x9;&lt;p data-end=&quot;975&quot; data-start=&quot;870&quot;>&lt;strong data-end=&quot;886&quot; data-start=&quot;870&quot;>Double Black&lt;/strong>: Expert-level trails, often with extreme terrain, exposed areas, and man-made obstacles.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p data-end=&quot;1196&quot; data-start=&quot;977&quot;>Trail systems are typically designed to minimize environmental impact while maximizing rider enjoyment. Features like berms, jumps, and switchbacks are carefully integrated to maintain the natural flow of the landscape.&lt;/p>&#xA;&#xA;&lt;h3 data-end=&quot;338&quot; data-start=&quot;304&quot;>&lt;strong data-end=&quot;338&quot; data-start=&quot;308&quot;>Typical Weather Conditions&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;995&quot; data-start=&quot;339&quot;>&#xA;&#x9;&lt;li data-end=&quot;498&quot; data-start=&quot;339&quot;>&#xA;&#x9;&lt;p data-end=&quot;498&quot; data-start=&quot;341&quot;>&lt;strong data-end=&quot;369&quot; data-start=&quot;341&quot;>Mild to Moderate Weather&lt;/strong>: Mountain bikes are often used in spring, summer, and early autumn when temperatures range from &lt;strong data-end=&quot;497&quot; data-start=&quot;466&quot;>50&amp;deg;F to 80&amp;deg;F (10&amp;deg;C to 27&amp;deg;C)&lt;/strong>.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;626&quot; data-start=&quot;499&quot;>&#xA;&#x9;&lt;p data-end=&quot;626&quot; data-start=&quot;501&quot;>&lt;strong data-end=&quot;529&quot; data-start=&quot;501&quot;>Dry Conditions Preferred&lt;/strong>: Dry trails offer optimal grip, but mountain bikes are also capable of handling damp conditions.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;843&quot; data-start=&quot;627&quot;>&#xA;&#x9;&lt;p data-end=&quot;843&quot; data-start=&quot;629&quot;>&lt;strong data-end=&quot;651&quot; data-start=&quot;629&quot;>Light Rain and Mud&lt;/strong>: Many mountain bikes are equipped with treaded tires designed to maintain traction in muddy conditions. However, heavy rain can lead to trail erosion, making some trails impassable or unsafe.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;995&quot; data-start=&quot;844&quot;>&#xA;&#x9;&lt;p data-end=&quot;995&quot; data-start=&quot;846&quot;>&lt;strong data-end=&quot;879&quot; data-start=&quot;846&quot;>Cooler High-Altitude Climates&lt;/strong>: In mountainous regions, weather can change rapidly, with cooler temperatures and possible afternoon thunderstorms.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;h3 data-end=&quot;1025&quot; data-start=&quot;997&quot;>&lt;strong data-end=&quot;1025&quot; data-start=&quot;1001&quot;>Hazards to Watch For&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;1161&quot; data-start=&quot;1026&quot;>&#xA;&#x9;&lt;li data-end=&quot;1073&quot; data-start=&quot;1026&quot;>&#xA;&#x9;&lt;p data-end=&quot;1073&quot; data-start=&quot;1028&quot;>Sudden weather changes in alpine environments&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1108&quot; data-start=&quot;1074&quot;>&#xA;&#x9;&lt;p data-end=&quot;1108&quot; data-start=&quot;1076&quot;>Slick rocks and roots after rain&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1161&quot; data-start=&quot;1109&quot;>&#xA;&#x9;&lt;p data-end=&quot;1161&quot; data-start=&quot;1111&quot;>Increased risk of hypothermia in cold, wet weather&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p data-end=&quot;1196&quot; data-start=&quot;977&quot;>&amp;nbsp;&lt;/p>&#xA;">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="0ef90d59-9503-4b1e-9e05-48278332fc72" targetElement="#7238b319-3167-424b-b9aa-19a99acb6b52"
+                sourceElement="#6b39f5cc-acc5-48e5-96c0-725d8f200a17"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="16789a71-4644-4ec6-b533-85d918a65e8e" targetElement="#24a76df7-7b51-45cc-9e79-06e7fea9d9a6"
+                sourceElement="#6b39f5cc-acc5-48e5-96c0-725d8f200a17"/>
+          </ownedEntities>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="c0b0bf39-d425-42c8-86a4-125196c35fb5"
               name="Highway" description="&lt;p data-end=&quot;348&quot; data-start=&quot;0&quot;>The typical terrain of a &lt;strong data-end=&quot;48&quot; data-start=&quot;25&quot;>highway bike system&lt;/strong> in Europe is carefully designed to provide a comfortable and efficient riding experience. While the actual terrain can vary depending on the region, the goal is to minimize steep inclines and ensure a smooth, consistent surface for cyclists. Here&amp;#39;s a breakdown of the common terrain characteristics:&lt;/p>&#xA;&#xA;&lt;h3 data-end=&quot;392&quot; data-start=&quot;350&quot;>&lt;strong data-end=&quot;392&quot; data-start=&quot;354&quot;>1. Flat and Gently Rolling Terrain&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;886&quot; data-start=&quot;393&quot;>&#xA;&#x9;&lt;li data-end=&quot;573&quot; data-start=&quot;393&quot;>&#xA;&#x9;&lt;p data-end=&quot;573&quot; data-start=&quot;395&quot;>&lt;strong data-end=&quot;409&quot; data-start=&quot;395&quot;>Prevalence&lt;/strong>: Most highway bike systems are constructed on &lt;strong data-end=&quot;490&quot; data-start=&quot;456&quot;>flat or gently rolling terrain&lt;/strong> to accommodate all types of cyclists, including commuters, tourists, and families.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;758&quot; data-start=&quot;574&quot;>&#xA;&#x9;&lt;p data-end=&quot;758&quot; data-start=&quot;576&quot;>&lt;strong data-end=&quot;587&quot; data-start=&quot;576&quot;>Regions&lt;/strong>: This is particularly common in &lt;strong data-end=&quot;639&quot; data-start=&quot;620&quot;>Northern Europe&lt;/strong>, including the Netherlands, Belgium, and parts of Germany, where expansive plains and lowlands dominate the landscape.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;886&quot; data-start=&quot;759&quot;>&#xA;&#x9;&lt;p data-end=&quot;886&quot; data-start=&quot;761&quot;>&lt;strong data-end=&quot;775&quot; data-start=&quot;761&quot;>Experience&lt;/strong>: Riders enjoy a relaxed, scenic ride with minimal exertion, making cycling a practical alternative to driving.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;h3 data-end=&quot;920&quot; data-start=&quot;888&quot;>&lt;strong data-end=&quot;920&quot; data-start=&quot;892&quot;>2. River and Canal Paths&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;1356&quot; data-start=&quot;921&quot;>&#xA;&#x9;&lt;li data-end=&quot;1074&quot; data-start=&quot;921&quot;>&#xA;&#x9;&lt;p data-end=&quot;1074&quot; data-start=&quot;923&quot;>&lt;strong data-end=&quot;937&quot; data-start=&quot;923&quot;>Prevalence&lt;/strong>: Many routes follow natural waterways like rivers, canals, or lakeshores, providing scenic views and reducing the need for steep climbs.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1240&quot; data-start=&quot;1075&quot;>&#xA;&#x9;&lt;p data-end=&quot;1240&quot; data-start=&quot;1077&quot;>&lt;strong data-end=&quot;1088&quot; data-start=&quot;1077&quot;>Regions&lt;/strong>: Countries like &lt;strong data-end=&quot;1115&quot; data-start=&quot;1105&quot;>France&lt;/strong> (Loire Valley), &lt;strong data-end=&quot;1143&quot; data-start=&quot;1132&quot;>Germany&lt;/strong> (along the Rhine River), and &lt;strong data-end=&quot;1184&quot; data-start=&quot;1173&quot;>Austria&lt;/strong> (Danube Cycle Path) feature extensive riverside routes.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1356&quot; data-start=&quot;1241&quot;>&#xA;&#x9;&lt;p data-end=&quot;1356&quot; data-start=&quot;1243&quot;>&lt;strong data-end=&quot;1257&quot; data-start=&quot;1243&quot;>Experience&lt;/strong>: Cyclists often experience smooth, paved paths with gentle curves, making for a leisurely journey.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;h3 data-end=&quot;1397&quot; data-start=&quot;1358&quot;>&lt;strong data-end=&quot;1397&quot; data-start=&quot;1362&quot;>3. Urban and Suburban Corridors&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;1830&quot; data-start=&quot;1398&quot;>&#xA;&#x9;&lt;li data-end=&quot;1524&quot; data-start=&quot;1398&quot;>&#xA;&#x9;&lt;p data-end=&quot;1524&quot; data-start=&quot;1400&quot;>&lt;strong data-end=&quot;1414&quot; data-start=&quot;1400&quot;>Prevalence&lt;/strong>: Highway bike systems in urban areas often run parallel to major roads, rail lines, or public transit routes.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1693&quot; data-start=&quot;1525&quot;>&#xA;&#x9;&lt;p data-end=&quot;1693&quot; data-start=&quot;1527&quot;>&lt;strong data-end=&quot;1538&quot; data-start=&quot;1527&quot;>Regions&lt;/strong>: Found in cities like &lt;strong data-end=&quot;1575&quot; data-start=&quot;1561&quot;>Copenhagen&lt;/strong>, &lt;strong data-end=&quot;1587&quot; data-start=&quot;1577&quot;>Berlin&lt;/strong>, and &lt;strong data-end=&quot;1606&quot; data-start=&quot;1593&quot;>Amsterdam&lt;/strong>, where dedicated bike expressways connect residential neighborhoods with city centers.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1830&quot; data-start=&quot;1694&quot;>&#xA;&#x9;&lt;p data-end=&quot;1830&quot; data-start=&quot;1696&quot;>&lt;strong data-end=&quot;1710&quot; data-start=&quot;1696&quot;>Experience&lt;/strong>: Cyclists benefit from well-maintained, wide lanes designed for high-capacity use, often with minimal elevation change.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;h3 data-end=&quot;1857&quot; data-start=&quot;1832&quot;>&lt;strong data-end=&quot;1857&quot; data-start=&quot;1836&quot;>4. Coastal Routes&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;2241&quot; data-start=&quot;1858&quot;>&#xA;&#x9;&lt;li data-end=&quot;1965&quot; data-start=&quot;1858&quot;>&#xA;&#x9;&lt;p data-end=&quot;1965&quot; data-start=&quot;1860&quot;>&lt;strong data-end=&quot;1874&quot; data-start=&quot;1860&quot;>Prevalence&lt;/strong>: Coastal bike highways provide breathtaking views and access to beaches and seaside towns.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2095&quot; data-start=&quot;1966&quot;>&#xA;&#x9;&lt;p data-end=&quot;2095&quot; data-start=&quot;1968&quot;>&lt;strong data-end=&quot;1979&quot; data-start=&quot;1968&quot;>Regions&lt;/strong>: Popular in &lt;strong data-end=&quot;2001&quot; data-start=&quot;1992&quot;>Spain&lt;/strong> (Costa Brava), &lt;strong data-end=&quot;2026&quot; data-start=&quot;2017&quot;>Italy&lt;/strong> (Amalfi Coast), and the &lt;strong data-end=&quot;2071&quot; data-start=&quot;2051&quot;>Balkan countries&lt;/strong> along the Adriatic Sea.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2241&quot; data-start=&quot;2096&quot;>&#xA;&#x9;&lt;p data-end=&quot;2241&quot; data-start=&quot;2098&quot;>&lt;strong data-end=&quot;2112&quot; data-start=&quot;2098&quot;>Experience&lt;/strong>: While generally flat, some coastal routes may include short climbs to navigate cliffs or hills, offering picturesque overlooks.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;h3 data-end=&quot;2279&quot; data-start=&quot;2243&quot;>&lt;strong data-end=&quot;2279&quot; data-start=&quot;2247&quot;>5. Forested and Rural Trails&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;2698&quot; data-start=&quot;2280&quot;>&#xA;&#x9;&lt;li data-end=&quot;2389&quot; data-start=&quot;2280&quot;>&#xA;&#x9;&lt;p data-end=&quot;2389&quot; data-start=&quot;2282&quot;>&lt;strong data-end=&quot;2296&quot; data-start=&quot;2282&quot;>Prevalence&lt;/strong>: In more rural areas, bike highways may pass through forests, farmlands, or nature reserves.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2512&quot; data-start=&quot;2390&quot;>&#xA;&#x9;&lt;p data-end=&quot;2512&quot; data-start=&quot;2392&quot;>&lt;strong data-end=&quot;2403&quot; data-start=&quot;2392&quot;>Regions&lt;/strong>: Countries like &lt;strong data-end=&quot;2430&quot; data-start=&quot;2420&quot;>Sweden&lt;/strong>, &lt;strong data-end=&quot;2442&quot; data-start=&quot;2432&quot;>Norway&lt;/strong>, and &lt;strong data-end=&quot;2458&quot; data-start=&quot;2448&quot;>Poland&lt;/strong> offer routes through national parks and remote areas.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2698&quot; data-start=&quot;2513&quot;>&#xA;&#x9;&lt;p data-end=&quot;2698&quot; data-start=&quot;2515&quot;>&lt;strong data-end=&quot;2529&quot; data-start=&quot;2515&quot;>Experience&lt;/strong>: Riders can enjoy shaded, tranquil rides with slight undulations. Gravel or packed dirt trails may be used in these areas, though most major bike highways remain paved.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;h3 data-end=&quot;2737&quot; data-start=&quot;2700&quot;>&lt;strong data-end=&quot;2737&quot; data-start=&quot;2704&quot;>6. Mountain and Hill Passages&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;3149&quot; data-start=&quot;2738&quot;>&#xA;&#x9;&lt;li data-end=&quot;2904&quot; data-start=&quot;2738&quot;>&#xA;&#x9;&lt;p data-end=&quot;2904&quot; data-start=&quot;2740&quot;>&lt;strong data-end=&quot;2754&quot; data-start=&quot;2740&quot;>Prevalence&lt;/strong>: While not common for commuting highways, some routes in mountainous regions provide long-distance cycling opportunities for more adventurous riders.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;3012&quot; data-start=&quot;2905&quot;>&#xA;&#x9;&lt;p data-end=&quot;3012&quot; data-start=&quot;2907&quot;>&lt;strong data-end=&quot;2918&quot; data-start=&quot;2907&quot;>Regions&lt;/strong>: Found in the &lt;strong data-end=&quot;2941&quot; data-start=&quot;2933&quot;>Alps&lt;/strong> (Austria, Switzerland, Italy) and the &lt;strong data-end=&quot;2992&quot; data-start=&quot;2980&quot;>Pyrenees&lt;/strong> (France and Spain).&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;3149&quot; data-start=&quot;3013&quot;>&#xA;&#x9;&lt;p data-end=&quot;3149&quot; data-start=&quot;3015&quot;>&lt;strong data-end=&quot;3029&quot; data-start=&quot;3015&quot;>Experience&lt;/strong>: Cyclists face challenging ascents and thrilling descents, with designated rest points and scenic vistas along the way.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;h3 data-end=&quot;3169&quot; data-start=&quot;3151&quot;>&lt;strong data-end=&quot;3169&quot; data-start=&quot;3155&quot;>Conclusion&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;p data-end=&quot;3640&quot; data-start=&quot;3170&quot;>Overall, &lt;strong data-end=&quot;3212&quot; data-start=&quot;3179&quot;>European highway bike systems&lt;/strong> are engineered to minimize sharp elevation changes, ensuring accessibility for all types of cyclists. Flat and gently rolling terrain dominates most networks, especially in urban and lowland areas. For those seeking adventure, coastal routes and mountain crossings provide more demanding yet rewarding experiences. Regardless of the terrain, these highways offer a safe, sustainable, and enjoyable way to explore the continent.&lt;/p>&#xA;&#xA;&lt;h3 data-end=&quot;1227&quot; data-start=&quot;1193&quot;>&lt;strong data-end=&quot;1227&quot; data-start=&quot;1197&quot;>Typical Weather Conditions&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;1698&quot; data-start=&quot;1228&quot;>&#xA;&#x9;&lt;li data-end=&quot;1374&quot; data-start=&quot;1228&quot;>&#xA;&#x9;&lt;p data-end=&quot;1374&quot; data-start=&quot;1230&quot;>&lt;strong data-end=&quot;1255&quot; data-start=&quot;1230&quot;>Fair and Mild Weather&lt;/strong>: Ideal conditions for highway biking are clear, sunny days with temperatures between &lt;strong data-end=&quot;1373&quot; data-start=&quot;1341&quot;>60&amp;deg;F and 85&amp;deg;F (15&amp;deg;C to 29&amp;deg;C)&lt;/strong>.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1475&quot; data-start=&quot;1375&quot;>&#xA;&#x9;&lt;p data-end=&quot;1475&quot; data-start=&quot;1377&quot;>&lt;strong data-end=&quot;1400&quot; data-start=&quot;1377&quot;>Calm or Light Winds&lt;/strong>: Strong winds can make riding challenging, especially on exposed highways.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1594&quot; data-start=&quot;1476&quot;>&#xA;&#x9;&lt;p data-end=&quot;1594&quot; data-start=&quot;1478&quot;>&lt;strong data-end=&quot;1494&quot; data-start=&quot;1478&quot;>Dry Pavement&lt;/strong>: Wet roads can reduce tire traction and increase stopping distances, making dry weather preferable.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1698&quot; data-start=&quot;1595&quot;>&#xA;&#x9;&lt;p data-end=&quot;1698&quot; data-start=&quot;1597&quot;>&lt;strong data-end=&quot;1627&quot; data-start=&quot;1597&quot;>Early Mornings or Evenings&lt;/strong>: Cyclists often prefer these times in summer to avoid the midday heat.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;h3 data-end=&quot;1728&quot; data-start=&quot;1700&quot;>&lt;strong data-end=&quot;1728&quot; data-start=&quot;1704&quot;>Hazards to Watch For&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;1850&quot; data-start=&quot;1729&quot;>&#xA;&#x9;&lt;li data-end=&quot;1763&quot; data-start=&quot;1729&quot;>&#xA;&#x9;&lt;p data-end=&quot;1763&quot; data-start=&quot;1731&quot;>Slick roads during or after rain&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1791&quot; data-start=&quot;1764&quot;>&#xA;&#x9;&lt;p data-end=&quot;1791&quot; data-start=&quot;1766&quot;>Gusty winds in open areas&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1850&quot; data-start=&quot;1792&quot;>&#xA;&#x9;&lt;p data-end=&quot;1850&quot; data-start=&quot;1794&quot;>Intense heat on long stretches of road with little shade&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;"/>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="9fb0081f-9b48-48ca-92ee-15b96c6abab7"
               name="Gravel, Sand, Snow" description="&lt;p data-end=&quot;343&quot; data-start=&quot;0&quot;>A &lt;strong data-end=&quot;19&quot; data-start=&quot;2&quot;>fat tire bike&lt;/strong> is specifically designed for riding on rough, loose, or uneven terrain, thanks to its oversized tires that provide extra traction and stability. These bikes are built to handle challenging environments where traditional mountain or road bikes would struggle. Here&amp;rsquo;s a look at the typical terrain suited for fat tire biking:&lt;/p>&#xA;&#xA;&lt;hr data-end=&quot;348&quot; data-start=&quot;345&quot; />&#xA;&lt;h2 data-end=&quot;372&quot; data-start=&quot;350&quot;>&lt;strong data-end=&quot;372&quot; data-start=&quot;353&quot;>1. Snow and Ice&lt;/strong>&lt;/h2>&#xA;&#xA;&lt;ul data-end=&quot;764&quot; data-start=&quot;373&quot;>&#xA;&#x9;&lt;li data-end=&quot;464&quot; data-start=&quot;373&quot;>&#xA;&#x9;&lt;p data-end=&quot;464&quot; data-start=&quot;375&quot;>&lt;strong data-end=&quot;394&quot; data-start=&quot;375&quot;>Primary Terrain&lt;/strong>: Fat tire bikes excel on &lt;strong data-end=&quot;443&quot; data-start=&quot;420&quot;>snow-covered trails&lt;/strong> and frozen surfaces.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;607&quot; data-start=&quot;465&quot;>&#xA;&#x9;&lt;p data-end=&quot;607&quot; data-start=&quot;467&quot;>&lt;strong data-end=&quot;483&quot; data-start=&quot;467&quot;>Why It Works&lt;/strong>: The wide tires distribute the bike&amp;#39;s weight over a larger surface area, reducing sinkage and providing excellent traction.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;764&quot; data-start=&quot;608&quot;>&#xA;&#x9;&lt;p data-end=&quot;764&quot; data-start=&quot;610&quot;>&lt;strong data-end=&quot;624&quot; data-start=&quot;610&quot;>Experience&lt;/strong>: Popular for &lt;strong data-end=&quot;661&quot; data-start=&quot;638&quot;>winter trail riding&lt;/strong> or even commuting in snowy regions. Fat bikes often have studded tires for added grip on icy surfaces.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;h3 data-end=&quot;790&quot; data-start=&quot;766&quot;>&lt;strong data-end=&quot;790&quot; data-start=&quot;770&quot;>Common Locations&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;939&quot; data-start=&quot;791&quot;>&#xA;&#x9;&lt;li data-end=&quot;852&quot; data-start=&quot;791&quot;>&#xA;&#x9;&lt;p data-end=&quot;852&quot; data-start=&quot;793&quot;>Nordic regions like &lt;strong data-end=&quot;823&quot; data-start=&quot;813&quot;>Norway&lt;/strong>, &lt;strong data-end=&quot;836&quot; data-start=&quot;825&quot;>Finland&lt;/strong>, and &lt;strong data-end=&quot;852&quot; data-start=&quot;842&quot;>Canada&lt;/strong>&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;896&quot; data-start=&quot;853&quot;>&#xA;&#x9;&lt;p data-end=&quot;896&quot; data-start=&quot;855&quot;>Ski resorts offering winter biking trails&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;939&quot; data-start=&quot;897&quot;>&#xA;&#x9;&lt;p data-end=&quot;939&quot; data-start=&quot;899&quot;>Frozen lakes or snow-packed forest paths&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;hr data-end=&quot;944&quot; data-start=&quot;941&quot; />&#xA;&lt;h2 data-end=&quot;972&quot; data-start=&quot;946&quot;>&lt;strong data-end=&quot;972&quot; data-start=&quot;949&quot;>2. Sand and Beaches&lt;/strong>&lt;/h2>&#xA;&#xA;&lt;ul data-end=&quot;1267&quot; data-start=&quot;973&quot;>&#xA;&#x9;&lt;li data-end=&quot;1050&quot; data-start=&quot;973&quot;>&#xA;&#x9;&lt;p data-end=&quot;1050&quot; data-start=&quot;975&quot;>&lt;strong data-end=&quot;994&quot; data-start=&quot;975&quot;>Primary Terrain&lt;/strong>: Loose, sandy terrain is no problem for fat tire bikes.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1165&quot; data-start=&quot;1051&quot;>&#xA;&#x9;&lt;p data-end=&quot;1165&quot; data-start=&quot;1053&quot;>&lt;strong data-end=&quot;1069&quot; data-start=&quot;1053&quot;>Why It Works&lt;/strong>: The low tire pressure allows the bike to float on top of the sand rather than sinking into it.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1267&quot; data-start=&quot;1166&quot;>&#xA;&#x9;&lt;p data-end=&quot;1267&quot; data-start=&quot;1168&quot;>&lt;strong data-end=&quot;1182&quot; data-start=&quot;1168&quot;>Experience&lt;/strong>: Riders enjoy coastal rides along sandy beaches, as well as desert trail adventures.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;h3 data-end=&quot;1293&quot; data-start=&quot;1269&quot;>&lt;strong data-end=&quot;1293&quot; data-start=&quot;1273&quot;>Common Locations&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;1477&quot; data-start=&quot;1294&quot;>&#xA;&#x9;&lt;li data-end=&quot;1360&quot; data-start=&quot;1294&quot;>&#xA;&#x9;&lt;p data-end=&quot;1360&quot; data-start=&quot;1296&quot;>Coastal trails in &lt;strong data-end=&quot;1328&quot; data-start=&quot;1314&quot;>California&lt;/strong>, &lt;strong data-end=&quot;1341&quot; data-start=&quot;1330&quot;>Florida&lt;/strong>, and &lt;strong data-end=&quot;1360&quot; data-start=&quot;1347&quot;>Australia&lt;/strong>&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1426&quot; data-start=&quot;1361&quot;>&#xA;&#x9;&lt;p data-end=&quot;1426&quot; data-start=&quot;1363&quot;>Dunes and desert paths in places like &lt;strong data-end=&quot;1411&quot; data-start=&quot;1401&quot;>Nevada&lt;/strong> or &lt;strong data-end=&quot;1426&quot; data-start=&quot;1415&quot;>Morocco&lt;/strong>&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1477&quot; data-start=&quot;1427&quot;>&#xA;&#x9;&lt;p data-end=&quot;1477&quot; data-start=&quot;1429&quot;>Baja Peninsula in &lt;strong data-end=&quot;1457&quot; data-start=&quot;1447&quot;>Mexico&lt;/strong> for off-road riding&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;hr data-end=&quot;1482&quot; data-start=&quot;1479&quot; />&#xA;&lt;h2 data-end=&quot;1512&quot; data-start=&quot;1484&quot;>&lt;strong data-end=&quot;1512&quot; data-start=&quot;1487&quot;>3. Mud and Wet Trails&lt;/strong>&lt;/h2>&#xA;&#xA;&lt;ul data-end=&quot;1813&quot; data-start=&quot;1513&quot;>&#xA;&#x9;&lt;li data-end=&quot;1598&quot; data-start=&quot;1513&quot;>&#xA;&#x9;&lt;p data-end=&quot;1598&quot; data-start=&quot;1515&quot;>&lt;strong data-end=&quot;1534&quot; data-start=&quot;1515&quot;>Primary Terrain&lt;/strong>: Wet, muddy trails are another ideal environment for fat bikes.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1696&quot; data-start=&quot;1599&quot;>&#xA;&#x9;&lt;p data-end=&quot;1696&quot; data-start=&quot;1601&quot;>&lt;strong data-end=&quot;1617&quot; data-start=&quot;1601&quot;>Why It Works&lt;/strong>: The wide tires shed mud effectively and maintain grip in slippery conditions.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1813&quot; data-start=&quot;1697&quot;>&#xA;&#x9;&lt;p data-end=&quot;1813&quot; data-start=&quot;1699&quot;>&lt;strong data-end=&quot;1713&quot; data-start=&quot;1699&quot;>Experience&lt;/strong>: Riders often tackle forest trails or lowland paths where rain or spring thaw creates muddy tracks.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;h3 data-end=&quot;1839&quot; data-start=&quot;1815&quot;>&lt;strong data-end=&quot;1839&quot; data-start=&quot;1819&quot;>Common Locations&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;2026&quot; data-start=&quot;1840&quot;>&#xA;&#x9;&lt;li data-end=&quot;1904&quot; data-start=&quot;1840&quot;>&#xA;&#x9;&lt;p data-end=&quot;1904&quot; data-start=&quot;1842&quot;>Forested areas of the &lt;strong data-end=&quot;1885&quot; data-start=&quot;1864&quot;>Pacific Northwest&lt;/strong> or &lt;strong data-end=&quot;1904&quot; data-start=&quot;1889&quot;>New England&lt;/strong>&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;1976&quot; data-start=&quot;1905&quot;>&#xA;&#x9;&lt;p data-end=&quot;1976&quot; data-start=&quot;1907&quot;>Rainforests and jungle trails in &lt;strong data-end=&quot;1954&quot; data-start=&quot;1940&quot;>Costa Rica&lt;/strong> or &lt;strong data-end=&quot;1976&quot; data-start=&quot;1958&quot;>Southeast Asia&lt;/strong>&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2026&quot; data-start=&quot;1977&quot;>&#xA;&#x9;&lt;p data-end=&quot;2026&quot; data-start=&quot;1979&quot;>Backcountry routes with seasonal wet conditions&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;hr data-end=&quot;2031&quot; data-start=&quot;2028&quot; />&#xA;&lt;h2 data-end=&quot;2069&quot; data-start=&quot;2033&quot;>&lt;strong data-end=&quot;2069&quot; data-start=&quot;2036&quot;>4. Rocky and Technical Trails&lt;/strong>&lt;/h2>&#xA;&#xA;&lt;ul data-end=&quot;2391&quot; data-start=&quot;2070&quot;>&#xA;&#x9;&lt;li data-end=&quot;2145&quot; data-start=&quot;2070&quot;>&#xA;&#x9;&lt;p data-end=&quot;2145&quot; data-start=&quot;2072&quot;>&lt;strong data-end=&quot;2091&quot; data-start=&quot;2072&quot;>Primary Terrain&lt;/strong>: Uneven, rocky terrain with loose gravel or boulders.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2293&quot; data-start=&quot;2146&quot;>&#xA;&#x9;&lt;p data-end=&quot;2293&quot; data-start=&quot;2148&quot;>&lt;strong data-end=&quot;2164&quot; data-start=&quot;2148&quot;>Why It Works&lt;/strong>: Fat tires provide cushioning and improved traction, reducing the risk of punctures and offering a smoother ride over obstacles.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2391&quot; data-start=&quot;2294&quot;>&#xA;&#x9;&lt;p data-end=&quot;2391&quot; data-start=&quot;2296&quot;>&lt;strong data-end=&quot;2310&quot; data-start=&quot;2296&quot;>Experience&lt;/strong>: This is popular for technical mountain biking or backcountry trail exploration.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;h3 data-end=&quot;2417&quot; data-start=&quot;2393&quot;>&lt;strong data-end=&quot;2417&quot; data-start=&quot;2397&quot;>Common Locations&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;2577&quot; data-start=&quot;2418&quot;>&#xA;&#x9;&lt;li data-end=&quot;2467&quot; data-start=&quot;2418&quot;>&#xA;&#x9;&lt;p data-end=&quot;2467&quot; data-start=&quot;2420&quot;>&lt;strong data-end=&quot;2439&quot; data-start=&quot;2420&quot;>Southwestern US&lt;/strong> regions like &lt;strong data-end=&quot;2467&quot; data-start=&quot;2453&quot;>Moab, Utah&lt;/strong>&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2524&quot; data-start=&quot;2468&quot;>&#xA;&#x9;&lt;p data-end=&quot;2524&quot; data-start=&quot;2470&quot;>Rocky trails in the &lt;strong data-end=&quot;2498&quot; data-start=&quot;2490&quot;>Alps&lt;/strong> or &lt;strong data-end=&quot;2524&quot; data-start=&quot;2502&quot;>Scottish Highlands&lt;/strong>&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2577&quot; data-start=&quot;2525&quot;>&#xA;&#x9;&lt;p data-end=&quot;2577&quot; data-start=&quot;2527&quot;>Volcanic landscapes like &lt;strong data-end=&quot;2563&quot; data-start=&quot;2552&quot;>Iceland&lt;/strong> or &lt;strong data-end=&quot;2577&quot; data-start=&quot;2567&quot;>Hawaii&lt;/strong>&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;hr data-end=&quot;2582&quot; data-start=&quot;2579&quot; />&#xA;&lt;h2 data-end=&quot;2623&quot; data-start=&quot;2584&quot;>&lt;strong data-end=&quot;2623&quot; data-start=&quot;2587&quot;>5. Forest and Backcountry Trails&lt;/strong>&lt;/h2>&#xA;&#xA;&lt;ul data-end=&quot;2970&quot; data-start=&quot;2624&quot;>&#xA;&#x9;&lt;li data-end=&quot;2723&quot; data-start=&quot;2624&quot;>&#xA;&#x9;&lt;p data-end=&quot;2723&quot; data-start=&quot;2626&quot;>&lt;strong data-end=&quot;2645&quot; data-start=&quot;2626&quot;>Primary Terrain&lt;/strong>: Soft forest floors, grassy meadows, or trails with fallen leaves and debris.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2829&quot; data-start=&quot;2724&quot;>&#xA;&#x9;&lt;p data-end=&quot;2829&quot; data-start=&quot;2726&quot;>&lt;strong data-end=&quot;2742&quot; data-start=&quot;2726&quot;>Why It Works&lt;/strong>: Fat bikes handle unpredictable surfaces with ease, maintaining stability and control.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2970&quot; data-start=&quot;2830&quot;>&#xA;&#x9;&lt;p data-end=&quot;2970&quot; data-start=&quot;2832&quot;>&lt;strong data-end=&quot;2846&quot; data-start=&quot;2832&quot;>Experience&lt;/strong>: Riders enjoy immersive experiences in nature, often riding along wilderness trails with minimal impact on the environment.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;h3 data-end=&quot;2996&quot; data-start=&quot;2972&quot;>&lt;strong data-end=&quot;2996&quot; data-start=&quot;2976&quot;>Common Locations&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;ul data-end=&quot;3147&quot; data-start=&quot;2997&quot;>&#xA;&#x9;&lt;li data-end=&quot;3047&quot; data-start=&quot;2997&quot;>&#xA;&#x9;&lt;p data-end=&quot;3047&quot; data-start=&quot;2999&quot;>&lt;strong data-end=&quot;3024&quot; data-start=&quot;2999&quot;>Appalachian Mountains&lt;/strong> or &lt;strong data-end=&quot;3047&quot; data-start=&quot;3028&quot;>Rocky Mountains&lt;/strong>&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;3091&quot; data-start=&quot;3048&quot;>&#xA;&#x9;&lt;p data-end=&quot;3091&quot; data-start=&quot;3050&quot;>&lt;strong data-end=&quot;3074&quot; data-start=&quot;3050&quot;>Scandinavian forests&lt;/strong> and remote areas&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;3147&quot; data-start=&quot;3092&quot;>&#xA;&#x9;&lt;p data-end=&quot;3147&quot; data-start=&quot;3094&quot;>National parks with designated off-road biking trails&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;hr data-end=&quot;3152&quot; data-start=&quot;3149&quot; />&#xA;&lt;h2 data-end=&quot;3192&quot; data-start=&quot;3154&quot;>&lt;strong data-end=&quot;3192&quot; data-start=&quot;3157&quot;>6. Urban and All-Terrain Riding&lt;/strong>&lt;/h2>&#xA;&#xA;&lt;ul data-end=&quot;3614&quot; data-start=&quot;3193&quot;>&#xA;&#x9;&lt;li data-end=&quot;3351&quot; data-start=&quot;3193&quot;>&#xA;&#x9;&lt;p data-end=&quot;3351&quot; data-start=&quot;3195&quot;>&lt;strong data-end=&quot;3214&quot; data-start=&quot;3195&quot;>Primary Terrain&lt;/strong>: While designed for rougher landscapes, fat bikes are also used in urban settings for tackling uneven pavement, curbs, and gravel paths.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;3496&quot; data-start=&quot;3352&quot;>&#xA;&#x9;&lt;p data-end=&quot;3496&quot; data-start=&quot;3354&quot;>&lt;strong data-end=&quot;3370&quot; data-start=&quot;3354&quot;>Why It Works&lt;/strong>: The shock-absorbing properties of fat tires make for a comfortable ride over cobblestones, potholes, and unmaintained roads.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;3614&quot; data-start=&quot;3497&quot;>&#xA;&#x9;&lt;p data-end=&quot;3614&quot; data-start=&quot;3499&quot;>&lt;strong data-end=&quot;3513&quot; data-start=&quot;3499&quot;>Experience&lt;/strong>: Some commuters prefer fat bikes for year-round city cycling, especially in snowy or rainy climates.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;h3 data-end=&quot;3640&quot; data-start=&quot;3616&quot;>&lt;strong data-end=&quot;3640&quot; data-start=&quot;3620&quot;>Common Locations&lt;/strong>&lt;/h3>&#xA;&#xA;&lt;p data-end=&quot;3795&quot; data-start=&quot;3759&quot;>&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p data-end=&quot;3795&quot; data-start=&quot;3759&quot;>&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p data-end=&quot;3795&quot; data-start=&quot;3759&quot;>&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p data-end=&quot;3795&quot; data-start=&quot;3759&quot;>&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;ul data-end=&quot;3795&quot; data-start=&quot;3641&quot;>&#xA;&#x9;&lt;li data-end=&quot;3704&quot; data-start=&quot;3641&quot;>&#xA;&#x9;&lt;p data-end=&quot;3704&quot; data-start=&quot;3643&quot;>Northern cities like &lt;strong data-end=&quot;3679&quot; data-start=&quot;3664&quot;>Minneapolis&lt;/strong> or &lt;strong data-end=&quot;3694&quot; data-start=&quot;3683&quot;>Toronto&lt;/strong> in winter&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;3756&quot; data-start=&quot;3705&quot;>&#xA;&#x9;&lt;p data-end=&quot;3756&quot; data-start=&quot;3707&quot;>European cities with historic cobblestone streets&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;3795&quot; data-start=&quot;3757&quot;>&#xA;&#x9;&lt;p data-end=&quot;3795&quot; data-start=&quot;3759&quot;>Parks and greenways in urban centers&lt;/p>&#xA;&#xA;&#x9;&lt;ul>&#xA;&#x9;&#x9;&lt;li data-end=&quot;3795&quot; data-start=&quot;3757&quot;>&amp;nbsp;&lt;/li>&#xA;&#x9;&#x9;&lt;li data-end=&quot;3795&quot; data-start=&quot;3757&quot;>&amp;nbsp;&lt;/li>&#xA;&#x9;&#x9;&lt;li data-end=&quot;3795&quot; data-start=&quot;3757&quot;>&amp;nbsp;&lt;/li>&#xA;&#x9;&#x9;&lt;li data-end=&quot;3795&quot; data-start=&quot;3757&quot;>&amp;nbsp;&lt;/li>&#xA;&#x9;&#x9;&lt;li>&amp;nbsp;&lt;/li>&#xA;&#x9;&lt;/ul>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;h1>&lt;strong data-end=&quot;1917&quot; data-start=&quot;1887&quot;>Typical Weather Conditions&lt;/strong>&lt;/h1>&#xA;&#xA;&lt;ul data-end=&quot;3795&quot; data-start=&quot;3641&quot;>&#xA;&#x9;&lt;li data-end=&quot;2110&quot; data-start=&quot;1918&quot;>&#xA;&#x9;&lt;p data-end=&quot;2110&quot; data-start=&quot;1920&quot;>&lt;strong data-end=&quot;1936&quot; data-start=&quot;1920&quot;>Snow and Ice&lt;/strong>: Fat tire bikes are ideal for winter conditions, with temperatures ranging from &lt;strong data-end=&quot;2048&quot; data-start=&quot;2017&quot;>10&amp;deg;F to 32&amp;deg;F (-12&amp;deg;C to 0&amp;deg;C)&lt;/strong>. The tires provide grip and flotation on packed snow and ice.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2263&quot; data-start=&quot;2111&quot;>&#xA;&#x9;&lt;p data-end=&quot;2263&quot; data-start=&quot;2113&quot;>&lt;strong data-end=&quot;2137&quot; data-start=&quot;2113&quot;>Sand and Desert Heat&lt;/strong>: Fat bikes are also built for sandy terrain, performing well in hot desert climates with temperatures up to &lt;strong data-end=&quot;2262&quot; data-start=&quot;2246&quot;>100&amp;deg;F (38&amp;deg;C)&lt;/strong>.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;3795&quot; data-start=&quot;3757&quot;>&#xA;&#x9;&lt;h3 data-end=&quot;2599&quot; data-start=&quot;2571&quot;>&lt;strong data-end=&quot;2599&quot; data-start=&quot;2575&quot;>Hazards to Watch For&lt;/strong>&lt;/h3>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2683&quot; data-start=&quot;2600&quot;>&#xA;&#x9;&lt;p data-end=&quot;2683&quot; data-start=&quot;2602&quot;>Extreme cold, which can affect battery life in e-bikes or cause mechanical issues&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2724&quot; data-start=&quot;2684&quot;>&#xA;&#x9;&lt;p data-end=&quot;2724&quot; data-start=&quot;2686&quot;>Heat exhaustion in desert environments&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2780&quot; data-start=&quot;2725&quot;>&#xA;&#x9;&lt;p data-end=&quot;2780&quot; data-start=&quot;2727&quot;>Sudden weather changes in mountainous or remote areas&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;3795&quot; data-start=&quot;3757&quot;>&amp;nbsp;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2444&quot; data-start=&quot;2264&quot;>&#xA;&#x9;&lt;p data-end=&quot;2444&quot; data-start=&quot;2266&quot;>&lt;strong data-end=&quot;2292&quot; data-start=&quot;2266&quot;>Mud and Wet Conditions&lt;/strong>: They excel in muddy, rainy environments, often used in spring and fall. With low tire pressure, fat bikes maintain stability even on soft, wet ground.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li data-end=&quot;2569&quot; data-start=&quot;2445&quot;>&#xA;&#x9;&lt;p data-end=&quot;2569&quot; data-start=&quot;2447&quot;>&lt;strong data-end=&quot;2474&quot; data-start=&quot;2447&quot;>Coastal and Windy Areas&lt;/strong>: Their stability makes them a great choice for windy coastal trails and damp beach conditions.&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="ac79b27b-e344-42eb-9a2a-24897e5b0f1b"
-            name="Mountain Bike"/>
+            name="Mountain Bike">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="77773054-db2c-43ca-a8fe-7878ea2df2af" targetElement="#46451156-5a65-4858-adf5-5be6cab1cd3a"
+              sourceElement="#ac79b27b-e344-42eb-9a2a-24897e5b0f1b"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="f47996a8-0ceb-43b5-93ea-0690d4f2c452" targetElement="#f8612a52-446a-45e6-b572-76085116ff8b"
+              sourceElement="#ac79b27b-e344-42eb-9a2a-24897e5b0f1b"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="1e14d2d7-c3da-4e82-bf60-d97c00ffe069" targetElement="#fc47c3e4-3852-426e-a524-3a0c475db298"
+              sourceElement="#ac79b27b-e344-42eb-9a2a-24897e5b0f1b"/>
+        </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="584b954c-57f6-4f3d-996b-4d49372d006c"
             name="Gravel Bike"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="1b104657-f785-40fe-a53a-7a1bc4626d3a"
