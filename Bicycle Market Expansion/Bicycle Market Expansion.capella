@@ -468,12 +468,10 @@
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="93003437-0c6a-4c66-af6a-465b8e0e0484" name="Versatile Terrain Handling"
             description="&lt;p>&lt;span style=&quot;background: white;&quot;>The ability to traverse a variety of surfaces, including gravel roads, dirt paths, and light trails, offering flexibility in routing.&lt;/span>&lt;/p>&#xA;">
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="09ffcd78-f3d6-4099-8368-7f2c666985d3" included="#a3fec522-0f0c-4ee4-b425-2c95e122c554"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="9bee218e-5c25-45f0-b428-2f8657130c61" involved="#e57b5175-33b8-4bc4-957b-25ad06f3a227"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="63b91603-d3ab-4de3-86da-f23e7fa08e3a" involved="#584b954c-57f6-4f3d-996b-4d49372d006c"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="2f264db6-0297-4246-956f-fbc13883a849" involved="#9fb0081f-9b48-48ca-92ee-15b96c6abab7"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="6a6f7dc1-b5d4-4770-8a4f-0fa1dad4908a" involved="#e1efac5f-249f-4fdb-b6f5-0e7604e4d256"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -482,12 +480,10 @@
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="d240c224-65b6-493a-94ac-24ee2798aa4c" name="Sturdy Construction "
             description="&lt;p>&lt;span style=&quot;background: white;&quot;>A frame designed to withstand varying surface conditions, providing reliability across long distances.&lt;/span>&lt;/p>&#xA;">
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="fd1a1035-eb44-463b-9b1d-7f60decdf802" included="#eae51d9b-fee6-4012-a8f6-18ddd821e02c"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="db8fa26a-1c00-4a65-9c36-7762789e43f5" involved="#e57b5175-33b8-4bc4-957b-25ad06f3a227"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="c4395eca-f681-456f-b1fd-b5f62aa09d07" involved="#584b954c-57f6-4f3d-996b-4d49372d006c"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="cb422462-76a6-4d6e-9e35-2af4c4cbb692" involved="#9fb0081f-9b48-48ca-92ee-15b96c6abab7"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="9a79e072-9cc3-475e-a435-aea2d002d2d0" involved="#e1efac5f-249f-4fdb-b6f5-0e7604e4d256"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -495,12 +491,10 @@
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="8ecb00b7-ce07-4e49-8110-dd1b21da0936" name="Load Carrying" description="&lt;p>&lt;span style=&quot;background: white;&quot;>Equipped with mounting points for racks and gear, supporting long-distance rides that may require carrying additional equipment.&lt;/span>&lt;/p>&#xA;">
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="77eaa7c3-2aeb-426e-b404-a2e5c137a193" included="#eae51d9b-fee6-4012-a8f6-18ddd821e02c"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="7f3de83e-fa54-4e33-963f-7b4758aea044" involved="#e57b5175-33b8-4bc4-957b-25ad06f3a227"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="a9cc440e-7d23-40fd-b575-3a1f0f49c9e8" involved="#584b954c-57f6-4f3d-996b-4d49372d006c"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="587d57c9-e4de-4b9e-9799-b1ffc314adce" involved="#9fb0081f-9b48-48ca-92ee-15b96c6abab7"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="1af65610-08b7-49bf-a89a-8aef5d3f58d5" involved="#e1efac5f-249f-4fdb-b6f5-0e7604e4d256"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -509,12 +503,10 @@
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="9056a3ad-7bea-4b3d-9529-438c25157e08" name="Comfort and Endurance"
             description="&lt;p>&lt;span style=&quot;background: white;&quot;>Designed for long rides with ergonomic features that ensure rider comfort over extended periods.&lt;/span>&lt;/p>&#xA;">
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="be5bd306-7240-4d20-b4c4-89da123fd835" included="#eae51d9b-fee6-4012-a8f6-18ddd821e02c"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="e73a6950-2f6b-4196-9943-3dfac8cb70b8" involved="#e57b5175-33b8-4bc4-957b-25ad06f3a227"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="94eed37d-3404-4cc8-8af4-4eb84eba602b" involved="#584b954c-57f6-4f3d-996b-4d49372d006c"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="316d7f95-cc31-4d2f-afbe-5d84cb4f0150" involved="#9fb0081f-9b48-48ca-92ee-15b96c6abab7"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="0f74f06a-a685-47e1-a8b5-72ee3cd62756" involved="#e1efac5f-249f-4fdb-b6f5-0e7604e4d256"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -559,7 +551,7 @@
               id="cc7f4ce9-c7a5-4512-bbc9-0a6ebfa65fee" involved="#6b28f8e0-dd38-48f3-8c4e-12d87ea963e4"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="55cd81bf-e951-470b-9652-3ddf159ecfed" name="Mountain Trial Ride">
+            id="55cd81bf-e951-470b-9652-3ddf159ecfed" name="Mountain Trail Ride">
           <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
               id="7ac06e00-6c60-4701-bcfd-13b1e261f241" involved="#66a56834-577b-46f6-b3f8-ef484ba79d4c"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -573,6 +565,15 @@
             id="a990049c-b60c-4b93-bdeb-7a928860e900" name="Terrain Adjustmnt">
           <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
               id="e13d11b0-788f-4910-b243-0a8ef64f5cce" involved="#56f229f0-87f1-4c2c-8a50-3518fc714bab"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="a3fec522-0f0c-4ee4-b425-2c95e122c554" name="Terrain Adjust"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="eae51d9b-fee6-4012-a8f6-18ddd821e02c" name="Mixed Surface Road">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="58a8bdf9-4b4a-4439-baf8-509d530b0034" involved="#9fb0081f-9b48-48ca-92ee-15b96c6abab7"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="c9945e19-008f-41c3-a986-6494551bb08b" involved="#584b954c-57f6-4f3d-996b-4d49372d006c"/>
         </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
